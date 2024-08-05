@@ -1,0 +1,8 @@
+algoritmo "E03"
+var
+
+inicio
+
+Escreva ("Sejam bem-vindos ao livro sobre Algoritmos da Casa do Código!")
+
+fimalgoritmo
