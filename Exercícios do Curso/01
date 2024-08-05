@@ -3,6 +3,7 @@ var
 
 inicio
 
-Escreva ("Hello, world!")
+Escreval ("Hello, world!")
+Escreva ("Me livrei da maldição!")
 
 fimalgoritmo
