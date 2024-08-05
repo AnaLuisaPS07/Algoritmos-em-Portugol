@@ -1,0 +1,21 @@
+//declarando e atribuindo variávies
+
+algoritmo "gerenciamentoEscola"
+
+var
+
+   totalTurmas, diasLetivos, media: inteiro
+   alunoA, alunoZ: caractere
+   
+inicio
+
+ totalTurmas<- 35
+ diasLetivos <-210
+ media<- 6
+ alunoA <- "Ana Luísa"
+ alunoZ <- "Zaqueu"
+ 
+ Escreval ("O total de turmas é:" , totalTurmas, ". Os dias letivos são: ", diasLetivos, ". A media da escola é: " , media)
+ Escreval ("O nome dos alunos com o melhor e pior rendimento no ano de 2023 é: ", alunoA, " e " , alunoZ, "respectivamente")
+
+fimalgoritmo
