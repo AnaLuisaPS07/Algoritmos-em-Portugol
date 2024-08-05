@@ -1,0 +1,11 @@
+//declarando variávies
+
+algoritmo "sistemaDECaixa"
+var
+   valorCompra, troco : real
+   unidadesProduto: inteiro
+   
+inicio
+
+
+fimalgoritmo
