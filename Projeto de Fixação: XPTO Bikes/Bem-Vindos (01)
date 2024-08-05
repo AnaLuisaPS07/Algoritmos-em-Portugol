@@ -1,1 +1,10 @@
+algoritmo "E03"
 
+var
+
+inicio
+
+Escreval ("Sejam bem-vindos á loja XPTO Bikes!")
+Escreval ("Em breve teremos um sistema de autoatendimento.")
+
+fimalgoritmo
