@@ -1,1 +1,8 @@
+algoritmo "E03"
+var
 
+inicio
+
+Escreva ("Hello, world!")
+
+fimalgoritmo
