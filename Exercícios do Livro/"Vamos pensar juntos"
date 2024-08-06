@@ -2,8 +2,7 @@ algoritmo "vamosPensarJuntos"
 
 var
 
-  n1, n2, soma, sub, multi: inteiro
-  divi: real
+  n1, n2, soma, sub, multi, divi: real
 
 
 inicio
