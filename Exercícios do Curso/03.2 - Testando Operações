@@ -1,0 +1,47 @@
+algoritmo "testando operações"
+var
+   name: caractere
+   n1, n2, n3, s: real
+   n4, n5, m: real
+   n6, n7, ex: real
+   n8, Ra: real
+   n9,cose: real
+
+inicio
+ Escreval ("Olá! Seja bem-vindo(a) a um pequeno joguinho matemático.")
+ Escreval("Por favor, digite seu nome: ")
+ Leia(name)
+ Escreval ("Certo " , name , ", que tal fazermos um jogo?")
+ Escreval ("Vamos começar por algo simples, por favor escolha um número: ")
+ Leia (n1)
+ Escreval ("Agora, mais um número(com números altos fica mais interessante!) ")
+ Leia (n2)
+ Escreval ("Apenas para ficar mais divertido,digite mais um: ")
+ Leia (n3)
+ s <- n1+n2+n3
+ Escreval ("Perfeito " , name , "! A soma de todos os seus números é exatamente " ,s)
+ Escreval ("Mas essa foi fácil né? Vamos aumentar o nível...")
+ Escreval ("Te pedirei mais dois números, pode mandar o primeiro: ")
+ Leia (n4)
+ Escreval ("Agora o segundo, e lembre-se " , name , ", pode ser números grandes!")
+ Leia (n5)
+ m <- n4*n5
+ Escreval ("OUKEI " , name ,"! Sabia que a multiplicação desses números resulta em " , m ,"?")
+ Escreval ("Ok, vamos lá de novo, acho que você já entendeu como funciona :)")
+ Escreval ("Um número: ")
+ Leia (n6)
+ Escreval ("Mais um: ")
+ Leia (n7)
+ ex <- n6^n7
+ Escreval ("Se elevarmos seu primeiro número pelo segundo, teremos exatamente" , ex )
+ Escreval ("Legal, não?" )
+ Escreval ("Agora, me manda uma raiz")
+ Leia (n8)
+ Ra <- (raizq(n8))
+ Escreval ("A raiz de " , n8 , " é " , Ra )
+ Escreval ("Que tal vermos um pouco de ângulos? Me mande um: ")
+ Leia (n9)
+ cose <- (cos(n9))
+ Escreval ("O coseno desse número é " ,cose)
+ Escreval ("Espero que você tenha aproveitado " , name , "! Te vejo na próxima")
+fimalgoritmo
