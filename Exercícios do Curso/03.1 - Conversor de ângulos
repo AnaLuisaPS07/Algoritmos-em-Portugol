@@ -1,1 +1,17 @@
+algoritmo "conversor"
 
+
+var
+
+   angulo, R: real
+
+inicio
+
+  Escreval ("Digite um ãngulo: ")
+  Leia (angulo)
+ 
+  R <- Sen(grauprad(angulo))
+ 
+  Escreval ("O seno " ,angulo, " é igual a " , R)
+ 
+fimalgoritmo
