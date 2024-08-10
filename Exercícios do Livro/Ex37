@@ -19,11 +19,11 @@ inicio
              Escreval ("O PRIMEIRO número é maior!")
           Senao
              Escreval("O SEGUNDO número é maior!")
-       FimSe
+          FimSe
        
             Senao
                Escreval ("Números iguais!")
              
-            FimSe
+      FimSe
 
 fimalgoritmo
