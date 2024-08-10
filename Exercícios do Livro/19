@@ -11,7 +11,7 @@ inicio
       Escreval ("Digite o preço do etanol: ")
       Leia (eta)
 
-      conta<- (eta/gas)
+      conta <- (eta/gas)
 
       Se (conta >= 0.7) entao
          Escreval ("Compensa abastecer com gasolina.")
