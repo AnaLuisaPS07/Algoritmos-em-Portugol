@@ -82,6 +82,62 @@ total <- (total + valorSacado)
 
 *Cada valor sacado é somado à variável total, que acumula o total de todos os saques.
 
+Como Funciona a Acumulação do Valor Total
+
+Vamos considerar um exemplo em que o usuário saque os seguintes valores em cada uma das 10 iterações: 
+100, 200, 150, 50, 300, 400, 250, 100, 75, 125.
+
+Inicialização:
+total começa com o valor 0 antes do laço Para iniciar.
+
+1° Iteração:
+O usuário insere valorSacado = 100.
+total era 0, então total <- 0 + 100, resultando em total = 100.
+
+2° Iteração:
+O usuário insere valorSacado = 200.
+total era 100, então total <- 100 + 200, resultando em total = 300.
+
+3° Iteração:
+O usuário insere valorSacado = 150.
+total era 300, então total <- 300 + 150, resultando em total = 450.
+
+4° Iteração:
+O usuário insere valorSacado = 50.
+total era 450, então total <- 450 + 50, resultando em total = 500.
+
+5° Iteração:
+O usuário insere valorSacado = 300.
+total era 500, então total <- 500 + 300, resultando em total = 800.
+
+6° Iteração:
+O usuário insere valorSacado = 400.
+total era 800, então total <- 800 + 400, resultando em total = 1200.
+
+7° Iteração:
+O usuário insere valorSacado = 250.
+total era 1200, então total <- 1200 + 250, resultando em total = 1450.
+
+8° Iteração:
+O usuário insere valorSacado = 100.
+total era 1450, então total <- 1450 + 100, resultando em total = 1550.
+
+9° Iteração:
+O usuário insere valorSacado = 75.
+total era 1550, então total <- 1550 + 75, resultando em total = 1625.
+
+10° Iteração:
+O usuário insere valorSacado = 125.
+total era 1625, então total <- 1625 + 125, resultando em total = 1750.
+
+Resultado Final:
+O valor final de total após as 10 iterações será 1750, que é a soma de todos os valores sacados.
+
+Resumindo:
+Em cada iteração do laço, o programa pega o valor atual de total, 
+soma o valorSacado da iteração atual, e armazena esse novo valor em total.
+Dessa forma, total vai acumulando todos os valores sacados ao longo das iterações.
+
 
 ##FINALIZAÇÃO DO LAÇO##
 
