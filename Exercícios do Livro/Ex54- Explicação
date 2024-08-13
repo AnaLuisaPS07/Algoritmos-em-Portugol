@@ -3,46 +3,60 @@
 // EXPLICAÇÃO
 
 
-Esse código realiza uma simulação de operações de saque em um caixa eletrônico. Ele utiliza a estrutura de repetição Para para executar o processo de saque 10 vezes, e no final, gera um relatório com o maior valor sacado, a média dos valores sacados e o total sacado.
+Esse código realiza uma simulação de operações de saque em um caixa eletrônico.
+Ele utiliza a estrutura de repetição Para para executar o processo de saque 10 vezes, e no final, 
+gera um relatório com o maior valor sacado, a média dos valores sacados e o total sacado.
 
-Aqui está uma explicação detalhada de cada parte:
+EXPLICAÇÃO DETALHADA DE CADA PARTE:
 
-Declaração de Variáveis
-pseudocode
-Copy code
+##Declaração de Variáveis
+
 var
    valorSacado, maiorValor, mediaValorSacado, total: real
    contador: inteiro
+
 valorSacado: Armazena o valor que o usuário deseja sacar em cada iteração.
+
 maiorValor: Armazena o maior valor sacado até o momento.
+
 mediaValorSacado: Armazena a média dos valores sacados ao final do processo.
+
 total: Armazena a soma total de todos os valores sacados.
+
 contador: Controla o número de iterações do laço Para, variando de 1 a 10.
-Inicialização
-pseudocode
-Copy code
+
+
+##Inicialização
+
 maiorValor <- 0
+
 total <- 0
-maiorValor <- 0: Inicializa a variável maiorValor com 0, para que o primeiro valor sacado seja automaticamente considerado o maior.
+
+maiorValor <- 0: Inicializa a variável maiorValor com 0, 
+para que o primeiro valor sacado seja automaticamente considerado o maior.
+
 total <- 0: Inicializa a variável total com 0, para começar a acumular os valores sacados.
-Estrutura de Repetição Para
-pseudocode
-Copy code
+
+##Estrutura de Repetição Para
+
 Para contador de 1 ate 10 faca
+
 Este laço de repetição executa o bloco de código que está dentro dele 10 vezes, uma vez para cada saque.
-Entrada de Dados e Processamento
-pseudocode
-Copy code
+
+##Entrada de Dados e Processamento
+
 Escreval ("---------------------------------")
 Escreval ("BEM-VINDO(A) AO CAIXA ELETRÔNICO")
 Escreval ("---------------------------------")
 
 Escreval ("Qual o valor que deseja sacar: ")
 Leia (valorSacado)
-Escreval e Leia: Mostra uma mensagem de boas-vindas ao usuário e solicita que ele insira o valor que deseja sacar. O valor inserido é armazenado em valorSacado.
-Verificação do Maior Valor Sacado
-pseudocode
-Copy code
+Escreval e Leia: Mostra uma mensagem de boas-vindas ao usuário e solicita que ele insira o valor que deseja sacar. 
+O valor inserido é armazenado em valorSacado.
+
+
+##Verificação do Maior Valor Sacado
+
 Se (contador = 1) entao
     maiorValor <- valorSacado
 Senao
@@ -52,19 +66,22 @@ Senao
 FimSe
 Se (contador = 1) entao: Na primeira iteração, o valor sacado é automaticamente considerado o maior, pois ainda não há outro valor para comparar.
 Senao Se (maiorValor < valorSacado) entao: Para as iterações seguintes, se o valor sacado for maior que o atual maiorValor, o maiorValor é atualizado com o novo valor.
-Acumulação do Valor Total
-pseudocode
-Copy code
+
+
+##Acumulação do Valor Total
+
 total <- (total + valorSacado)
 Cada valor sacado é somado à variável total, que acumula o total de todos os saques.
-Finalização do Laço
-pseudocode
-Copy code
+
+
+##Finalização do Laço
+
 FimPara
 FimPara: Marca o fim do laço de repetição Para. Após 10 iterações, o laço é encerrado.
-Exibição do Relatório
-pseudocode
-Copy code
+
+
+##Exibição do Relatório
+
 Escreval ("RELATÓRIO DO DIA")
 Escreval ("Maior valor sacado: ", maiorValor)
 Escreval ("Média do valor sacado: ", total/10)
@@ -72,7 +89,9 @@ Escreval ("Total de valor sacado: ", total)
 Escreval ("Maior valor sacado: ", maiorValor): Exibe o maior valor sacado durante as 10 operações.
 Escreval ("Média do valor sacado: ", total/10): Calcula e exibe a média dos valores sacados.
 Escreval ("Total de valor sacado: ", total): Exibe o total de dinheiro sacado ao longo das 10 operações.
-Resumo do Fluxo
+
+
+##Resumo do Fluxo
 O usuário insere 10 valores de saque.
 O programa mantém o controle do maior valor sacado e soma todos os valores.
 Ao final, o programa exibe o maior valor sacado, a média dos valores sacados, e o total sacado.
