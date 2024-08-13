@@ -96,9 +96,12 @@ Escreval ("RELATÓRIO DO DIA")
 Escreval ("Maior valor sacado: ", maiorValor)
 Escreval ("Média do valor sacado: ", total/10)
 Escreval ("Total de valor sacado: ", total)
-Escreval ("Maior valor sacado: ", maiorValor): Exibe o maior valor sacado durante as 10 operações.
-Escreval ("Média do valor sacado: ", total/10): Calcula e exibe a média dos valores sacados.
-Escreval ("Total de valor sacado: ", total): Exibe o total de dinheiro sacado ao longo das 10 operações.
+
+*Escreval ("Maior valor sacado: ", maiorValor): Exibe o maior valor sacado durante as 10 operações.
+
+*Escreval ("Média do valor sacado: ", total/10): Calcula e exibe a média dos valores sacados.
+
+*Escreval ("Total de valor sacado: ", total): Exibe o total de dinheiro sacado ao longo das 10 operações.
 
 
 ##Resumo do Fluxo##
