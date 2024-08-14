@@ -10,17 +10,17 @@ inicio
 
    soma <- 0
 
-       Para contador de 1 ate 5 faca
-          Escreval ("Digite um número")
-          Leia (numero)
+  Para contador de 1 ate 5 faca
+   Escreval ("Digite um número")
+   Leia (numero)
           
-          Escreval (" ")
+   Escreval (" ")
           
-          soma <- soma + numero
+   soma <- soma + numero
           
 
-          Escreval ("Total somado: ", soma)
+   Escreval ("Total somado: ", soma)
            
-       FimPara
+  FimPara
            
 fimalgoritmo
