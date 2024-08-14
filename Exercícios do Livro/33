@@ -1,0 +1,26 @@
+//Utilizando estrutura de repetição PARA
+
+algoritmo "E33"
+
+var
+
+   numero, qtdMaior, contador: inteiro
+   
+inicio
+
+       qtdMaior <- 0  // Inicializando a variável qtdMaior
+       
+       Para contador de 1 ate 10 faca
+          Escreval ("Digite um número")
+          Leia (numero)
+          
+          Se (numero > 50) entao
+              qtdMaior <- qtdMaior + 1  // Incrementando qtdMaior
+
+          FimSe
+          
+        Escreval ("Quantidade de números maiores que 50: ", qtdMaior)
+        
+        FimPara
+           
+fimalgoritmo
