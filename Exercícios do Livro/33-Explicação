@@ -1,0 +1,55 @@
+##Código Corrigido:
+
+algoritmo "E33"
+
+var
+   numero, qtdMaior, contador: inteiro
+   
+inicio
+       qtdMaior <- 0  // Inicializando a variável qtdMaior
+
+       Para contador de 1 ate 10 faca
+          Escreval ("Digite um número")
+          Leia (numero)
+          
+          Se (numero > 50) entao
+             qtdMaior <- qtdMaior + 1  // Incrementando qtdMaior
+
+          FimSe
+          
+       FimPara
+        
+       Escreval ("Quantidade de números maiores que 50: ", qtdMaior)  // Correto é fora do laço
+           
+fimalgoritmo
+
+
+##Explicação dos Problemas e Correções:
+
+Inicialização da Variável qtdMaior:
+
+É importante inicializar qtdMaior antes de começar a contagem. 
+Caso contrário, o valor pode ser indefinido. qtdMaior <- 0 resolve isso.
+
+
+Incremento da Variável qtdMaior:
+
+Em pseudocódigo, o incremento de uma variável normalmente é feito com a operação qtdMaior <- qtdMaior + 1. 
+Em algumas linguagens de programação, você poderia usar qtdMaior++, 
+mas no pseudocódigo padrão, qtdMaior <- qtdMaior + 1 é o correto.
+
+
+Posição da Escreval para Exibir o Resultado:
+
+A Escreval ("Quantidade de números maiores que 50: ", qtdMaior) deve ser colocada fora do laço Para. 
+Se ela for colocada dentro do laço, será executada em cada iteração, o que pode não ser o comportamento desejado. 
+Colocá-la após FimPara garante que o valor acumulado de qtdMaior será mostrado apenas uma vez, ao final.
+
+
+Agora, o código deve funcionar corretamente e contar a quantidade de números maiores que 50 entre os 10 números fornecidos.
+
+
+
+
+
+
