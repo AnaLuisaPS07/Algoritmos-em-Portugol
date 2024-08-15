@@ -17,10 +17,9 @@ inicio
    Escreval (" ")
           
    soma <- soma + numero
-          
-
-   Escreval ("Total somado: ", soma)
            
   FimPara
+
+   Escreval ("Total somado: ", soma)
            
 fimalgoritmo
