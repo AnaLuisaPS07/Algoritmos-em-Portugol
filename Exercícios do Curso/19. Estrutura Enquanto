@@ -18,6 +18,6 @@ inicio
         
       FimEnquanto
       
-      EScreval ("Terminei de contar")
+      Escreval ("Terminei de contar")
 
 fimalgoritmo
