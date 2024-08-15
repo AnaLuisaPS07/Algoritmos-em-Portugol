@@ -21,6 +21,6 @@ inicio
 
         FimPara
 
-        Escreval ("Quantidade de números maiores que 50: ", qtdMaior)
+        Escreval ("Quantidade de números que foram inseridos que são maiores que 50: ", qtdMaior)
          
 fimalgoritmo
