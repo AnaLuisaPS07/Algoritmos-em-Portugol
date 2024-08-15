@@ -21,3 +21,5 @@ inicio
       EScreval ("Terminei de contar")
 
 fimalgoritmo
+
+//no console tambem aparece "-1", não sei porquê
