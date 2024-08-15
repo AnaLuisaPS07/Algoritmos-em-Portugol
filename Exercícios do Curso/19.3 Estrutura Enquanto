@@ -6,7 +6,7 @@ algoritmo "ContarAteOndeQuiser"
 
 var
 
-   contador, valor, valor: inteiro
+   contador, valor, salto: inteiro
 
 
 inicio
