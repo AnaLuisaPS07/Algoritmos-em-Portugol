@@ -1,0 +1,48 @@
+algoritmo "E35"
+
+var
+   nota, maiorNota, menorNota, total: real
+   contador: inteiro
+
+inicio
+      maiorNota <- 0
+      menorNota <- 9999  // Inicializando com um valor muito alto
+      total <- 0
+
+       Para contador de 1 ate 5 faca
+          Escreval ("---------------------------------")
+          Escreval ("TURMA DE LÓGICA DE PROGRAMAÇÃO")
+          Escreval ("---------------------------------")
+
+          Escreval ("Informe a nota do aluno: ")
+          Leia (nota)
+
+          Escreval (" ")
+
+          Se (contador = 1) entao
+              maiorNota <- nota
+              menorNota <- nota  // Na primeira iteração, a nota lida é a maior e a menor
+
+            Senao
+             Se (maiorNota < nota) entao
+               maiorNota <- nota  // Atualiza a maior nota, se necessário
+
+             FimSe
+
+             Se (nota < menorNota) entao
+               menorNota <- nota  // Atualiza a menor nota, se necessário
+             FimSe
+
+          FimSe
+
+          total <- (total + nota)
+
+       FimPara
+
+          Escreval ("RELATÓRIO DA TURMA")
+
+          Escreval ("Maior nota: ", maiorNota)
+          Escreval ("Menor nota: ", menorNota)
+          Escreval ("Média das notas: ", total/5)  // Corrigido para dividir por 5
+
+fimalgoritmo
