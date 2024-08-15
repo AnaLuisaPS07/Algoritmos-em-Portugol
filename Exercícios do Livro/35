@@ -29,7 +29,7 @@ inicio
 
              FimSe
 
-             Se (nota < menorNota) entao //se a nota menor até o momento for MAIOR que a atual Nota, faz a troca
+             Se (nota < menorNota) entao //se a nota menor até o momento for MAIOR que a atual Nota, faz a troca, e a nota atual passa a ser a menor
                menorNota <- nota  // Atualiza a menor nota, se necessário
              FimSe
 
