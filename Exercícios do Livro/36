@@ -1,0 +1,44 @@
+algoritmo "E36"
+
+var
+
+   bolinhas, contador: inteiro
+
+inicio
+
+      Escreval ("----------------------------------")
+      Escreval ("JOGO DE ADIVINHAÇÃO! 5 TENTATIVAS")
+      Escreval ("----------------------------------")
+      Escreval (" ")
+
+      Para contador de 5 ate 1 passo -1 faca
+      
+      Escreval ("Digite a quantidade de bolinhas que tem dentro do pote: ")
+      Leia (bolinhas)
+      
+      Se (bolinhas = 82) entao
+         Escreval ("Você acertou!")
+         Escreval (" ")
+         Escreval (" ")
+         
+      //contador <- 0 
+         
+      Senao
+        Se (bolinhas < 82) entao
+          Escreval ("Você errou! Existe mais bolinhas do que você digitou")
+          Escreval ("Você ainda tem " ,contador-1 , " chances")
+          Escreval (" ")
+          Escreval (" ")
+             
+        Senao
+          Escreval ("Você errou! Existe menos bolinhas do que você digitou")
+          Escreval ("Você ainda tem " ,contador-1 , " chances")
+          Escreval (" ")
+          Escreval (" ")
+           
+        FimSe
+      FimSe
+      
+      FimPara
+      
+fimalgoritmo
