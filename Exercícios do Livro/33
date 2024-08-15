@@ -18,9 +18,9 @@ inicio
               qtdMaior <- qtdMaior + 1  // Incrementando qtdMaior
 
           FimSe
-          
-        Escreval ("Quantidade de números maiores que 50: ", qtdMaior)
-        
+
         FimPara
-           
+
+        Escreval ("Quantidade de números maiores que 50: ", qtdMaior)
+         
 fimalgoritmo
