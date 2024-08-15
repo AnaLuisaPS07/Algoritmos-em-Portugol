@@ -24,12 +24,12 @@ inicio
               menorNota <- nota  // Na primeira iteração, a nota lida é a maior e a menor
 
             Senao
-             Se (maiorNota < nota) entao
+             Se (maiorNota < nota) entao 
                maiorNota <- nota  // Atualiza a maior nota, se necessário
 
              FimSe
 
-             Se (nota < menorNota) entao
+             Se (nota < menorNota) entao //se a nota menor até o momento for MAIOR que a atual Nota, faz a troca
                menorNota <- nota  // Atualiza a menor nota, se necessário
              FimSe
 
