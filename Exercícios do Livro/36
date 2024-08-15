@@ -13,7 +13,7 @@ inicio
       Escreval ("----------------------------------")
       Escreval (" ")
 
-      Para contador de 5 ate 1 passo -1 faca
+      Para contador de 5 ate 1 passo -1 faca // vai precisar decrementar para mostrar quantas chances restam
       
       Escreval ("Digite a quantidade de bolinhas que tem dentro do pote: ")
       Leia (bolinhas)
@@ -27,13 +27,13 @@ inicio
          
       Senao
         Se (bolinhas < 82) entao
-          Escreval ("Você errou! Existe mais bolinhas do que você digitou")
+          Escreval ("Você errou! Existe MAIS bolinhas do que você digitou")
           Escreval ("Você ainda tem " ,contador-1 , " chances")
           Escreval (" ")
           Escreval (" ")
              
         Senao
-          Escreval ("Você errou! Existe menos bolinhas do que você digitou")
+          Escreval ("Você errou! Existe MENOS bolinhas do que você digitou")
           Escreval ("Você ainda tem " ,contador-1 , " chances")
           Escreval (" ")
           Escreval (" ")
