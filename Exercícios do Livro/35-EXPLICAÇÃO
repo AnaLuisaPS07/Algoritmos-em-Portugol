@@ -1,0 +1,89 @@
+Problemas no Código:
+
+
+Inicialização da menorNota:
+
+A menorNota é inicializada com 0, o que não é apropriado, 
+pois qualquer nota que seja positiva será maior que 0. 
+Isso fará com que a comparação de menor nota nunca funcione corretamente.
+
+
+Lógica da Menor Nota:
+
+A lógica de atribuição de menorNota está invertida. 
+O correto é comparar nota com menorNota e, se nota for menor, atualizar menorNota.
+
+
+
+Código Corrigido:
+
+algoritmo "E35"
+
+var
+   nota, maiorNota, menorNota, total: real
+   contador: inteiro
+
+inicio
+      maiorNota <- 0
+      menorNota <- 9999  // Inicializando com um valor muito alto
+      total <- 0
+
+       Para contador de 1 ate 5 faca
+          Escreval ("---------------------------------")
+          Escreval ("TURMA DE LÓGICA DE PROGRAMAÇÃO")
+          Escreval ("---------------------------------")
+
+          Escreval ("Informe a nota do aluno: ")
+          Leia (nota)
+
+          Escreval (" ")
+
+          Se (contador = 1) entao
+              maiorNota <- nota
+              menorNota <- nota  // Na primeira iteração, a nota lida é a maior e a menor
+
+            Senao
+             Se (maiorNota < nota) entao
+               maiorNota <- nota  // Atualiza a maior nota, se necessário
+               
+             FimSe
+
+             Se (nota < menorNota) entao
+               menorNota <- nota  // Atualiza a menor nota, se necessário
+             FimSe
+           
+          FimSe
+
+          total <- (total + nota)
+
+       FimPara
+
+          Escreval ("RELATÓRIO DA TURMA")
+          
+          Escreval ("Maior nota: ", maiorNota)
+          Escreval ("Menor nota: ", menorNota)
+          Escreval ("Média das notas: ", total/5)  // Corrigido para dividir por 5
+
+fimalgoritmo
+
+
+Explicação das Correções:
+
+
+Inicialização Correta de menorNota:
+
+Inicializei menorNota com um valor muito alto (9999) para garantir que a primeira nota lida seja comparada corretamente.
+
+
+Correção na Lógica de Menor Nota:
+
+Verifiquei se a nota lida é menor que a menorNota atual e, se for, atualizo menorNota.
+
+
+Agora o código deve funcionar corretamente, exibindo a maior nota, a menor nota e a média das notas da turma.
+
+
+
+
+
+
