@@ -10,7 +10,7 @@ var
 inicio
 
       maiorNota <- 0
-      menorNota <- 0
+      menorNota <- 0 //DEVE SER INICIALIZADA COM UM NÚMERO MAIOR
       total <- 0
 
        Para contador de 1 ate 5 faca
@@ -32,7 +32,7 @@ inicio
                
                Senao
                 se(nota < maiorNota) entao
-                  nota <- menorNota
+                  nota <- menorNota  //?
                 
              fimse
              FimSe
@@ -46,6 +46,6 @@ inicio
           
           Escreval ("Maior nota: ", maiorNota)
           Escreval ("Menor nota: ", menorNota)
-          EScreval ("Média das notas: ", total/25)
+          EScreval ("Média das notas: ", total/5)
 
 fimalgoritmo
