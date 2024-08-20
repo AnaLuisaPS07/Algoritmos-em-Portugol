@@ -5,7 +5,8 @@ algoritmo "creuza02"
 
 var
 
-   dindin, dolar, C: real
+   dindin, dolar: real
+   C : inteiro
 
 
 inicio
