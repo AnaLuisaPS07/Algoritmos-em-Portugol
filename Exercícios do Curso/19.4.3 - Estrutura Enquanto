@@ -43,3 +43,49 @@ inicio
       Escreval ("O menor valor é", menor)
 
 Fimalgoritmo
+
+
+
+
+
+
+
+algoritmo "SomadorNumerico"
+
+var
+   contador, N, S, maior, menor: inteiro
+
+inicio
+   contador <- 1
+   S <- 0
+
+   // Inicializa maior e menor com o primeiro valor lido
+   Escreval("Digite um número:")
+   Leia(N)
+   maior <- N
+   menor <- N
+   S <- S + N     // pq?
+
+   Enquanto (contador < 5) faca  // Vamos iterar mais 4 vezes (5 ao todo)
+       contador <- contador + 1
+       Escreval("Digite um número:")
+       Leia(N)
+
+       // Verifica se o valor atual é o maior
+       Se (N > maior) entao
+           maior <- N
+       FimSe
+
+       // Verifica se o valor atual é o menor
+       Se (N < menor) entao
+           menor <- N
+       FimSe
+
+       S <- S + N  // Soma dos valores inseridos  // pq?
+   FimEnquanto
+
+   Escreval("A soma de todos os valores é ", S)
+   Escreval("O maior valor é ", maior)
+   Escreval("O menor valor é ", menor)
+
+Fimalgoritmo
