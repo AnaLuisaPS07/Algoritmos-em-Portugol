@@ -23,4 +23,5 @@ inicio
 
 fimalgoritmo
 
+//Nesse caso já começa com um número grande e vai decrementando
 //no console tambem aparece "-1", não sei porquê
