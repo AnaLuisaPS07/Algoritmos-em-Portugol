@@ -31,3 +31,10 @@ inicio
       Escreval ("O maior valor é", maior)
 
 Fimalgoritmo
+
+//Motivo pelo qual o código funcionou mesmo sem iniciar maior:
+
+//O código funcionou porque na primeira iteração o valor inserido pelo usuário é 
+//comparado com a variável maior (inicialmente não definida) e, como qualquer valor 
+//inserido será maior que um valor não inicializado (ou que seja zero, se inicializado 
+//como zero), o primeiro número lido será atribuído a maior.
