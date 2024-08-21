@@ -1,0 +1,70 @@
+Objetivo do Código:
+
+
+O código realiza uma contagem inteligente de números de acordo com os valores de início e 
+final fornecidos pelo usuário. A contagem pode ser crescente ou decrescente, dependendo dos valores inseridos.
+
+Explicação do Código:
+
+Variáveis:
+
+inic: Armazena o valor inicial da contagem.
+final: Armazena o valor final da contagem.
+cont: Variável usada para controlar a contagem e o loop.
+
+
+Solicitação dos Valores de Início e Final:
+
+O programa primeiro pede ao usuário para inserir o valor inicial (inic) e o valor final (final) da contagem.
+
+
+Decisão sobre o Tipo de Contagem:
+
+Se (final > inic) entao: O código verifica se o valor final é maior que o inicial. 
+Isso determina se a contagem será crescente ou decrescente.
+
+
+Cenário 1: Contagem Crescente (final > inic)
+
+Se o valor final for maior que o inicial, a contagem será crescente.
+A variável cont é inicializada com o valor de inic.
+O loop Enquanto (cont <= final) faca controla a contagem crescente, somando 1 a cada iteração até que cont seja igual ou maior que final.
+A cada passo, o valor atual de cont é exibido com o comando Escreva (cont, ".. ").
+
+
+Cenário 2: Contagem Decrescente (final <= inic)
+
+Se o valor final for menor ou igual ao inicial, a contagem será decrescente.
+A variável cont também é inicializada com o valor de inic.
+O loop Enquanto (cont >= final) faca controla a contagem decrescente, subtraindo 1 a cada iteração até que cont seja igual ou menor que final.
+O valor de cont é exibido da mesma forma que no caso anterior.
+
+
+Estruturas de Controle:
+
+O código utiliza um Se...Senao para decidir o tipo de contagem (crescente ou decrescente)
+e dois loops Enquanto para realizar as operações.
+
+
+Incremento e Decremento:
+
+Para a contagem crescente, o código usa cont <- cont + 1.
+Para a contagem decrescente, o código usa cont <- cont - 1.
+
+
+Resumo do Funcionamento:
+
+O código adapta a contagem de acordo com os valores inseridos:
+
+Se o valor final for maior que o inicial, a contagem cresce.
+Se o valor final for menor ou igual ao inicial, a contagem decresce.
+A lógica considera ambos os cenários e exibe os números em ordem correta, 
+sempre ajustando o incremento ou decremento conforme necessário.
+
+
+Ponto Importante:
+
+O código inicializa a variável cont com o valor de inic, pois a contagem começa a partir desse valor.
+Durante a contagem, os valores são exibidos na mesma linha com o comando Escreva, 
+o que torna a saída visualmente contínua.
+Esse código demonstra como controlar loops e contagens dinâmicas em Portugol de maneira eficiente.
