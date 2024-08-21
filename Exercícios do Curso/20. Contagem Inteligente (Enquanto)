@@ -1,0 +1,48 @@
+//CONTAGEM INTELIGENTE
+
+algoritmo "Exercicio01"
+
+
+var
+
+   inic, final, cont: inteiro
+
+inicio
+
+      cont <- 1
+
+      Escreval ("Digite o início da contagem: ")
+      Leia (inic)
+      
+      Escreval (" ")
+       
+      Escreval ("Digite o final da contagem")
+      Leia (final)
+      
+
+       Se (final > inic) entao
+
+         cont <- inic
+
+         Enquanto (cont <= final) faca
+            Escreva (cont, ".. ")
+            
+            Cont <- cont + 1
+            
+         FimEnquanto
+
+      Senao
+
+         cont <- inic
+
+         Enquanto (cont >= final) faca
+            Escreva (cont, ".. ")
+            
+            cont <- cont - 1
+            
+         FimEnquanto
+
+      FimSe
+
+
+fimalgoritmo
