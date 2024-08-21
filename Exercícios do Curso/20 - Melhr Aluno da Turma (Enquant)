@@ -1,0 +1,46 @@
+//Melhor Aluno da turma
+
+Algoritmo "Exercicio02"
+
+Var
+
+   cont, quant, nota, notaMaior: inteiro
+   nome, melhorAluno: caractere
+
+Inicio
+
+   cont <- 1
+   //notaMaior <- 0
+   
+   Escreval ("Digite a quantidade de alunos da turma: ")
+   Leia (quant)
+
+   Enquanto (cont <= quant) faca
+
+
+
+   Escreval ("Digite o nome do aluno: ")
+   Leia (nome)
+
+   Escreval (" ")
+   
+   Escreval ("Digite a nota do aluno: ")
+   Leia (nota)
+   
+   Escreval (" ")
+   
+   Se (nota > NotaMaior) entao
+       nota <- notaMaior
+       melhorAluno <- nome
+
+   FimSe
+   
+    cont <- cont + 1
+
+FimEnquanto
+
+
+   Escreval ("O aluno que teve o melhor aproveitamento foi ", melhorAluno, " com nota" , notaMaior)
+
+
+FimAlgoritmo
