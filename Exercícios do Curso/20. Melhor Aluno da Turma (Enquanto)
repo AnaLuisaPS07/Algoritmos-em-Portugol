@@ -12,7 +12,7 @@ Inicio
    cont <- 1
 
    Escreval ("-----------------------------------------")
-   Escreval (" MELHR ALUNON DA TURMA")
+   Escreval (" MELHOR ALUNO DA TURMA")
    Escreval ("-----------------------------------------")
    
    Escreval (" ")
