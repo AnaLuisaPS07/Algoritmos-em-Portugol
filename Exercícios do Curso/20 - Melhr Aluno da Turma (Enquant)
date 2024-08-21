@@ -32,7 +32,7 @@ Inicio
    Escreval (" ")
    
    Se (nota > NotaMaior) entao
-       nota <- notaMaior
+       notaMaior <- nota
        melhorAluno <- nome
 
    FimSe
