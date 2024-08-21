@@ -28,7 +28,8 @@ Cenário 1: Contagem Crescente (final > inic)
 
 Se o valor final for maior que o inicial, a contagem será crescente.
 A variável cont é inicializada com o valor de inic.
-O loop Enquanto (cont <= final) faca controla a contagem crescente, somando 1 a cada iteração até que cont seja igual ou maior que final.
+O loop Enquanto (cont <= final) faca controla a contagem crescente, 
+somando 1 a cada iteração até que cont seja igual ou maior que final.
 A cada passo, o valor atual de cont é exibido com o comando Escreva (cont, ".. ").
 
 
@@ -36,7 +37,8 @@ Cenário 2: Contagem Decrescente (final <= inic)
 
 Se o valor final for menor ou igual ao inicial, a contagem será decrescente.
 A variável cont também é inicializada com o valor de inic.
-O loop Enquanto (cont >= final) faca controla a contagem decrescente, subtraindo 1 a cada iteração até que cont seja igual ou menor que final.
+O loop Enquanto (cont >= final) faca controla a contagem decrescente, 
+subtraindo 1 a cada iteração até que cont seja igual ou menor que final.
 O valor de cont é exibido da mesma forma que no caso anterior.
 
 
