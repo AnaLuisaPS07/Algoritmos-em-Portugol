@@ -1,0 +1,64 @@
+Objetivo do Código:
+O código tem como objetivo encontrar o aluno com a maior nota entre todos os alunos de uma turma, 
+pedindo ao usuário o nome e a nota de cada um.
+
+Explicação do Código:
+
+Variáveis:
+
+cont: Contador usado no loop para controlar o número de iterações.
+quant: Armazena a quantidade de alunos na turma.
+nota: Armazena a nota de cada aluno inserida a cada iteração.
+notaMaior: Armazena a maior nota encontrada até o momento.
+nome: Armazena o nome do aluno inserido em cada iteração.
+melhorAluno: Armazena o nome do aluno com a maior nota.
+Inicialização do Contador:
+
+cont <- 1: O contador é iniciado em 1 para que o loop funcione corretamente.
+
+
+Solicitação da Quantidade de Alunos:
+
+Escreval ("Digite a quantidade de alunos da turma: "): Pede ao usuário a quantidade total de alunos.
+
+
+Loop de Repetição (Enquanto):
+
+Enquanto (cont <= quant) faca: O loop executa até que o contador seja maior que a quantidade de alunos. 
+Ou seja, ele vai rodar exatamente a quantidade de vezes que o usuário definiu como número de alunos.
+
+
+Solicitação do Nome e Nota do Aluno:
+
+A cada iteração do loop, o código solicita o nome e a nota do aluno.
+
+
+Comparação da Nota:
+
+Se (nota > notaMaior) entao: Verifica se a nota atual é maior do que a maior nota armazenada até o momento.
+Se a condição for verdadeira, as variáveis notaMaior e melhorAluno são atualizadas 
+com a nova nota e o nome do aluno correspondente.
+
+
+Incremento do Contador:
+
+cont <- cont + 1: Após cada iteração, o contador é incrementado em 1 para controlar o loop.
+
+
+Exibição do Resultado:
+
+Após o loop, o código exibe o nome do aluno com a maior nota e o valor dessa nota.
+
+
+Pontos-Chave:
+Inicialização de notaMaior: A variável notaMaior não foi explicitamente inicializada com 0 antes do loop. 
+Isso pode funcionar corretamente se a primeira nota lida for maior que 0, 
+mas é uma boa prática sempre inicializá-la explicitamente.
+
+Atualização das Variáveis notaMaior e melhorAluno: 
+Essas variáveis são atualizadas apenas se a nota atual for maior do que a armazenada anteriormente.
+
+Resumo:
+O código funciona ao comparar a nota de cada aluno com a maior nota registrada até o momento. 
+Se a nota atual for maior, ela substitui o valor anterior e o nome do aluno é atualizado. 
+Ao final, o nome e a maior nota são exibidos, identificando o melhor aluno da turma.
