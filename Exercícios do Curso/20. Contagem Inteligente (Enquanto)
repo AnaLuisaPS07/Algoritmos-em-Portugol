@@ -20,14 +20,14 @@ inicio
       Leia (final)
       
 
-       Se (final > inic) entao
+       Se (final > inic) entao // crescente
 
          cont <- inic
 
-         Enquanto (cont <= final) faca
+         Enquanto (cont <= final) faca // enquanto o final for maior/igual ao contador, vai contando
             Escreva (cont, ".. ")
             
-            Cont <- cont + 1
+            cont <- cont + 1 // incremento
             
          FimEnquanto
 
@@ -35,10 +35,10 @@ inicio
 
          cont <- inic
 
-         Enquanto (cont >= final) faca
+         Enquanto (cont >= final) faca //decrescente
             Escreva (cont, ".. ")
             
-            cont <- cont - 1
+            cont <- cont - 1 // decremento
             
          FimEnquanto
 
