@@ -1,4 +1,4 @@
-/ Prática estruturas de repetição
+// Prática estruturas de repetição
 
 algoritmo "ContarAte10"
 
@@ -11,10 +11,8 @@ inicio
     cont <- 1
       
     Repita
-
        Escreval (cont)
        cont <- cont + 1
-
     Ate (cont > 10)
 
 Fimalgoritmo
