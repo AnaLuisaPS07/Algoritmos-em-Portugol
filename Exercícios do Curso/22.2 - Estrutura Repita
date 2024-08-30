@@ -1,27 +1,20 @@
-// Prática estruturas de repetição: REPITA
+/ Prática estruturas de repetição
 
 algoritmo "ContarAte10"
 
 var
 
-   N, S: inteiro
-   resp: caractere
+  cont: inteiro
    
 inicio
 
-      S <- 0
+    cont <- 1
       
     Repita
 
-       Escreval ("Digite um número:")
-       Leia (N)
-       S <- S + N
-       
-       Escreval ("Você quer continuar? (S/N)")
-       Leia (resp)
-       
-    Ate (resp = "N")
-    
-      Escreva ("A soma de todos os valores é", S)
+       Escreval (cont)
+       cont <- cont + 1
+
+    Ate (cont > 10)
 
 Fimalgoritmo
