@@ -21,7 +21,7 @@ inicio
 
     Se (n = 1) entao
       Repita
-        Escreval (c)
+        Escreva (c, "...")
          c <- c + 1
       Ate (c = 10)
     FimSe
@@ -30,7 +30,7 @@ inicio
    Se (n = 2) entao
     c <- 10
       Repita
-        Escreval (c)
+        Escreva (c, "...")
         c <- c - 1
       Ate (c < 1)
     FimSe
