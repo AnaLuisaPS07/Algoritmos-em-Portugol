@@ -111,6 +111,6 @@ inicio
       Escreval ("Valor final: " , semDescont - valorDescont)
    FimSe
 
-   FIMPARA   // Fi da estrutura de repetição PARA
+   FIMPARA   // Fim da estrutura de repetição PARA
    
 fimalgoritmo
