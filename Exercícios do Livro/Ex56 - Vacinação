@@ -1,0 +1,33 @@
+//Mesmo algoritmo da VACINAÇÃO, mas com o usuário entrando com valores
+
+algoritmo "Ex56"
+
+
+var
+
+   totalDias, diasNasc, qtdVacinas: inteiro
+   resp : caractere
+
+
+inicio
+
+      totalDias <- 0
+      qtdVacinas <- 0
+      resp <- "SIM"
+      
+      Enquanto (resp = "SIM") faca
+        Escreval ("Digite a quantidade de dias de vida que tem o recém-nascido: ")
+        Leia (diasNasc)
+        
+        totalDias <- totalDias + diasNasc
+        qtdVacinas <- qtdVacinas + 1
+        
+        Escreval (" ")
+        Escreval ("Deseja continuar? (S/N) ")
+        Leia (resp)
+        
+      FimEnquanto
+      
+      
+      Escreval ("A média dos bebês vacinados no dia foi de:  ", (totalDias/qtdVacinas), " dias")
+fimalgoritmo
