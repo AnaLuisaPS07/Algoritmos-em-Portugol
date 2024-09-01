@@ -13,9 +13,9 @@ inicio
 
       totalDias <- 0
       qtdVacinas <- 0
-      resp <- "SIM"
+      resp <- "S"
       
-      Enquanto (resp = "SIM") faca
+      Enquanto (resp = "S") faca
         Escreval ("Digite a quantidade de dias de vida que tem o recém-nascido: ")
         Leia (diasNasc)
         
