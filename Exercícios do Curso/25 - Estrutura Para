@@ -6,7 +6,7 @@ var
 
 inicio
 
-      Para c <- ate 10 faca
+      Para c <- 1 ate 10 faca
         Escreval (c)
       FimPara
 
