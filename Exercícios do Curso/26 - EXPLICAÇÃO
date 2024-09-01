@@ -1,1 +1,122 @@
+Visão Geral
+
+Este código tem como objetivo gerar os primeiros 15 números da sequência de Fibonacci. 
+A sequência de Fibonacci é uma série de números onde cada número é a soma dos dois anteriores, começando por 0 e 1.
+
+
+Declaração de Variáveis
+
+var
+   c, n1, n2, n3: inteiro
+
+c: Variável usada como contador no laço Para.
+
+n1: Representa o primeiro número da sequência de Fibonacci, começando com 0.
+
+n2: Representa o segundo número da sequência de Fibonacci, começando com 1.
+
+n3: Armazena o próximo número na sequência, calculado como a soma de n1 e n2.
+
+
+Inicialização
+
+inicio
+   n1 <- 0
+   Escreva (n1)
+   
+   n2 <- 1
+   Escreva (n2)
+
+n1 <- 0: Atribui 0 a n1, o primeiro número da sequência.
+
+Escreva (n1): Imprime n1 na tela.
+
+n2 <- 1: Atribui 1 a n2, o segundo número da sequência.
+
+Escreva (n2): Imprime n2 na tela.
+
+
+Loop para Gerar a Sequência
+
+Para c <- 3 ate 15 faca
+Para c <- 3 ate 15 faca: Inicia um laço Para que começa com c = 3 
+e vai até c = 15. Começa no 3 porque os dois primeiros números da sequência (0 e 1) já foram impressos anteriormente.
+
+
+Corpo do Loop
+
+n3 <- n1 + n2
+Escreva (n3)
+
+n1 <- n2
+n2 <- n3
+
+n3 <- n1 + n2: Calcula o próximo número da sequência de Fibonacci. 
+Na primeira iteração, n1 é 0 e n2 é 1, então n3 será 1.
+
+Escreva (n3): Imprime o valor de n3 na tela, que é o próximo número da sequência.
+
+n1 <- n2: Atualiza n1 com o valor de n2. Isso faz com que o próximo cálculo de Fibonacci use o número anterior.
+
+n2 <- n3: Atualiza n2 com o valor de n3. 
+Isso faz com que o próximo cálculo de Fibonacci use o último número calculado.
+
+
+Explicação Detalhada das Iterações
+
+Vamos detalhar o que acontece em cada iteração do laço:
+
+Iteração 1 (c = 3):
+
+n3 <- n1 + n2 → n3 = 0 + 1 → n3 = 1
+Imprime n3 (1).
+Atualiza n1 para 1 (antigo n2).
+Atualiza n2 para 1 (novo n3).
+Iteração 2 (c = 4):
+
+n3 <- n1 + n2 → n3 = 1 + 1 → n3 = 2
+Imprime n3 (2).
+Atualiza n1 para 1.
+Atualiza n2 para 2.
+Iteração 3 (c = 5):
+
+n3 <- n1 + n2 → n3 = 1 + 2 → n3 = 3
+Imprime n3 (3).
+Atualiza n1 para 2.
+Atualiza n2 para 3.
+... e assim por diante, até chegar à Iteração 13 (c = 15):
+
+n3 <- n1 + n2 → n3 = 233 + 377 → n3 = 610
+Imprime n3 (610).
+Atualiza n1 para 377.
+Atualiza n2 para 610.
+
+
+Fim do Algoritmo
+
+FimPara
+fimalgoritmo
+Após a última iteração (quando c = 15), o laço termina, e o algoritmo finaliza.
+
+Sequência Completa Gerada
+
+Os números gerados e impressos serão:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610
+Esses são os primeiros 15 números da sequência de Fibonacci.
+
+Resumo
+
+Este algoritmo é um exemplo de como gerar e imprimir uma sequência numérica, no caso, 
+a sequência de Fibonacci, usando um laço Para. 
+O laço começa na terceira posição porque os dois primeiros números são fixos 
+e já foram impressos antes do laço começar. A cada iteração, ele calcula o próximo número da sequência, 
+atualiza as variáveis n1 e n2, e repete o processo até atingir a quantidade desejada de números.
+
+
+
+
+
+
+
 
