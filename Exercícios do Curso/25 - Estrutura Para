@@ -1,1 +1,13 @@
+algoritmo "Contarde1Ate10"
 
+var
+
+      c: inteiro
+
+inicio
+
+      Para c <- ate 10 faca
+        Escreval (c)
+      FimPara
+
+fimalgoritmo
