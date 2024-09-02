@@ -12,7 +12,6 @@ var
 
 inicio
 
-      resp <- "S"
       qtdVelo <- 0
       qtdMultas <- 0
 
