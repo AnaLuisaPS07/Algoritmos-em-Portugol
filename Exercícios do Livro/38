@@ -1,6 +1,6 @@
 //Ler N números até que a soma desses números seja maior ou igual a 100
 
-algoritmo "Ex38"
+algoritmo "E38"
 
 var
 
