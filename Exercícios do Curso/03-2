@@ -1,4 +1,4 @@
-algoritmo "testando operações"
+algoritmo "testando-operacoes"
 
 var
    name: caractere
