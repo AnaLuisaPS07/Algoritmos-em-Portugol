@@ -1,4 +1,4 @@
-algoritmo "OperadoresRelacionais"
+algoritmo "operadores_rlacionais"
 
 var
   A, B, C: inteiro
