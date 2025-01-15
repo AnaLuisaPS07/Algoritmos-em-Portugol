@@ -1,4 +1,4 @@
-//Exercício ? - pagamento
+//Exercício 7 - pagamento
 Algoritmo "pagamento"
 
 Var

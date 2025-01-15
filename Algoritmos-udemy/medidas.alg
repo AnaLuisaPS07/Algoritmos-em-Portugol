@@ -1,4 +1,4 @@
-//Exercício - medidas
+//Exercício 9 - medidas
 Algoritmo "medidas"
 
 Var

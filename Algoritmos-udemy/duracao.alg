@@ -1,4 +1,4 @@
-//Exercício - duracao
+//Exercício 10 - duracao
 //não entendi muito bem a lógica do algoritmo
 Algoritmo "duracao"
 

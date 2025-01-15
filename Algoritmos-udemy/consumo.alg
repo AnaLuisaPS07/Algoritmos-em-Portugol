@@ -1,4 +1,4 @@
-//Exercício ? - consumo
+//Exercício 8 - consumo
 Algoritmo "consumo"
 
 Var
