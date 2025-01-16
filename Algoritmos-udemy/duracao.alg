@@ -1,5 +1,5 @@
 //Exercício 10 - duracao
-//não entendi muito bem a lógica do algoritmo
+//rever a lógica desse
 Algoritmo "duracao"
 
 Var

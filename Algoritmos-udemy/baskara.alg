@@ -1,4 +1,4 @@
-//Exercicio 12 - notas
+//Exercicio 12 - baskara
 Algoritmo "baskara"
 
 Var

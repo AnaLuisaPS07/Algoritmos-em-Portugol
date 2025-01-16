@@ -1,5 +1,5 @@
 //Exercício 21 - aumento
-//a estrutura escolha caso não funciona para faixa de valores, apenas para valores exatos
+//a estrutura escolha caso não funciona para faixa de valores, apenas para valores exatos.
 Algoritmo "aumento"
 
 Var

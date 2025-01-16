@@ -1,4 +1,4 @@
-//Exercício 13 - notas
+//Exercício 13 - menor de três
 Algoritmo "menor_de_tres"
 
 Var

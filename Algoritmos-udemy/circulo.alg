@@ -1,4 +1,4 @@
-//Exercício 6  - circulo 
+//Exercício 6  - circulo
 Algoritmo "circulo"
 
 Var

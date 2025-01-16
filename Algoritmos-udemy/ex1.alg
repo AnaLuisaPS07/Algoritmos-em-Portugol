@@ -1,4 +1,4 @@
-//execício proposto 1
+//execício_proposto 1
 
 Algoritmo "teste_saida"
 

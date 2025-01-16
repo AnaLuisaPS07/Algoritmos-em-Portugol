@@ -1,5 +1,4 @@
 //Outra lógica possível. Resolução do professor
-
 Algoritmo "dardo"
 
 Var
