@@ -1,4 +1,4 @@
-//Exercicio ? - quadrante
+//Exercicio 27 - quadrante
 Algoritmo "quadrande"
 
 Var

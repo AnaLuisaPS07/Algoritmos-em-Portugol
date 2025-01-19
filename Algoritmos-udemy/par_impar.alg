@@ -1,4 +1,4 @@
-//Exercicio ? - par_impar
+//Exercicio 35 - par_impar
 Algoritmo "par_impar"
 
 Var

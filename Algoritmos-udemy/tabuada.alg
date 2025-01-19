@@ -1,4 +1,4 @@
-//Exercicio ? - tabuada
+//Exercicio 31 - tabuada
 Algoritmo "tabuada"
 
 Var

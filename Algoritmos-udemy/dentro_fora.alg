@@ -1,4 +1,4 @@
-//Exercício ? - dentro fora
+//Exercício 34 - dentro fora
 Algoritmo "dentro_fora"
 
 Var

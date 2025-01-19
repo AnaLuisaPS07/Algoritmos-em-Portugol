@@ -1,4 +1,4 @@
-//Exercicio? - soma impares
+//Exercicio 32 - soma impares
 //tive dúvida na lógica desse
 Algoritmo "soma_impares"
 

@@ -1,4 +1,4 @@
-//Exercicio ? - sequência impares
+//Exercicio 33 - sequência impares
 Algoritmo "sequencia_impares"
 
 Var

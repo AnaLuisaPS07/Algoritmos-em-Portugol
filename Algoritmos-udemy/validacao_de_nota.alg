@@ -1,4 +1,4 @@
-//Exercício ? - validacao_de_nota
+//Exercício 28 - validacao_de_nota
 Algoritmo "validacao_de_nota"
 
 Var

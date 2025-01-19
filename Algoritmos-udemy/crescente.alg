@@ -1,4 +1,4 @@
-// Exercício ? - crescente
+// Exercício 24 - crescente
 Algoritmo "crescente"
 
 Var

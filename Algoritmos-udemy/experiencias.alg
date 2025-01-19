@@ -1,4 +1,4 @@
-//Exercicio ? - experiencias
+//Exercicio 39 - experiencias
 //rever lógica
 Algoritmo "experiencias"
 

@@ -1,4 +1,4 @@
-//Exercicio ? - pares consecutivos
+//Exercicio 30 - pares consecutivos
 //duvida na resolução do professor
 Algoritmo "pares_consecutivos"
 

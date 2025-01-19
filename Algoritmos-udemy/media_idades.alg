@@ -1,4 +1,4 @@
-//Exercício ? - media_idades
+//Exercício 25 - media_idades
 Algoritmo "media idade"
 
 Var

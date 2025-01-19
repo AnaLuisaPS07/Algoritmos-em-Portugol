@@ -1,4 +1,4 @@
-//Exercício ? - média ponderada
+//Exercício 36 - média ponderada
 Algoritmo "media_ponderada"
 
 Var

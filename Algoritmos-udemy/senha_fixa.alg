@@ -1,4 +1,4 @@
-//Exercício ? - senha_fixa
+//Exercício 26 - senha_fixa
 Algoritmo "senha_fixa"
 
 Var

@@ -1,4 +1,4 @@
-//Exercicio ? - fatorial
+//Exercicio 38 - fatorial
 Algoritmo "fatorial"
 
 Var
