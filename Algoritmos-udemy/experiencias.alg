@@ -1,13 +1,11 @@
 //Exercicio ? - experiencias
-//FINALIAR!!!!!!!!!!
+//rever lógica
 Algoritmo "experiencias"
 
 Var
    i, casos:inteiro
-   s, r,c: real
-   qtd, qtd_final, s_per, r_per,c_per:real
+   s, r,c, qtd, qtd_final, s_per, r_per,c_per:real
    tipo_c:caractere
-
 
 Inicio
    s<-0
@@ -22,33 +20,33 @@ Inicio
      Escreva("Tipo de cobaia: ")
      leia(tipo_c)
 
-     se (tipo_c= "s") ou (tipo_c= "S") entao
-       s<-s+1
+
+     se (tipo_c="s") ou (tipo_c="S") entao
+       s<-s+qtd
         senao
          se (tipo_c="r") ou (tipo_c= "R")entao
-           r<-r+1
+           r<-r+qtd
            senao
              se (tipo_c= "c") ou (tipo_c= "C") entao
-               c<-c+1
+               c<-c+qtd
              fimse
          fimse
      fimse
-
-     qtd_final<-c+r+s
-     c_per<-(c/qtd_final)*100
-     r_per<-(r/qtd_final)*100
-     s_per<-(s/qtd_final)*100
    fimpara
 
-   Escreva("RELATORIO FINAL")
-   Escreva("Total: ", qtd_final, " cobaias")
-   Escreva("Total de coelhos: ", c)
-   Escreva("Total de ratos: ", r)
-   Escreva("Total de sapos: ", s)
-   Escreva("Percentual de coelhos",c_per)
-   Escreva("Percentual de ratos",r_per)
-   Escreva("Percentual de sapos",s_per)
+   qtd_final<-c+r+s
+   c_per<-c/qtd_final*100
+   r_per<-r/qtd_final*100
+   s_per<-s/qtd_final*100
 
-
+   Escreval
+   Escreval("RELATORIO FINAL")
+   Escreval("Total: ", qtd_final, " cobaias")
+   Escreval("Total de coelhos: ", c)
+   Escreval("Total de ratos: ", r)
+   Escreval("Total de sapos: ", s)
+   Escreval("Percentual de coelhos: ",c_per:1:2)
+   Escreval("Percentual de ratos: ",r_per:1:2)
+   Escreval("Percentual de sapos: ",s_per:1:2)
 
 Fimalgoritmo
