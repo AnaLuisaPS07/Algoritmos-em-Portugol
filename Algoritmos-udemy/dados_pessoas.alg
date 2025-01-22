@@ -10,9 +10,9 @@ Var
    soma, media: real
 
 Inicio
-   soma<-0
-   cont_f<-0
-   cont_m<-0
+   
+   
+   
 
    Escreva("Quantas pessoas serao digitadas? ")
    Leia(n)
@@ -38,23 +38,31 @@ Inicio
      se i=0 entao
       maior_alt<-vet_alt[i]
        senao
-        se (vet_alt[i]>maior_alt) entao
+        se vet_alt[i]>maior_alt entao
           maior_alt<-vet_alt[i]
         fimse
     fimse
    fimpara
-
+   
+   soma<-0
+   cont_f<-0
    para i de 0 ate n-1 faca //media altura mulheres
      se (vet_gen[i]="f") ou (vet_gen[i]="F") entao
        cont_f<-cont_f+1
        soma<-soma+vet_alt[i]
-     fimse
-     media<-soma/cont_f
+     fimse  
    fimpara
 
+   se cont_f=0 entao //validando valor necessario para fazer a media das alturas das mulheres 
+     Escreval(Impossivel calcular a altura media das mulheres)
+   senao ]
+     media<-soma/cont_f   
+   fimse
+
+   cont_m<-0
    para i de 0 ate n-1 faca //Numero de homens
      se (vet_gen[i]="m") ou (vet_gen[i]="M") entao
-       cont_m<-cont_m+1
+       cont_m<-n-cont_f //subtração da qtd total de pessoas pela quantidade de mulheres
      fimse
    fimpara
 

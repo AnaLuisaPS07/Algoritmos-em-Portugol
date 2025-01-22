@@ -17,10 +17,10 @@ Inicio
    escreval
    Escreval("NUMEROS PARES:")
    para i de 0 ate n-1 faca
-     se i%2=0 entao //par
-       escreva(vet[i])
-       escreval
+     se vet[i]%2=0 entao //par
+       escreva(vet[i] " ") //para dar um espaço quando imprimir 
        cont<-cont+1
+       escreval
      fimse
    fimpara
    escreval

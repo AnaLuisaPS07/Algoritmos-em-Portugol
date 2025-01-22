@@ -7,25 +7,25 @@ Var
    soma, cont, media:real
 
 Inicio
-  soma<-0
-  cont<-0
-  Escreva("Quantos elementos vai ter o vetor? ")
-  Leia(n)
+   Escreva("Quantos elementos vai ter o vetor? ")
+   Leia(n)
 
-  para i de 0 ate n-1 faca
-    Escreva("Digite um numero: ")
-    Leia(vet[i])
-    se vet[i]%2=0 entao //par
-      soma<-soma+vet[i]
-      cont<-cont+1
-    fimse
-  fimpara
+   soma<-0
+   cont<-0
+   para i de 0 ate n-1 faca
+     Escreva("Digite um numero: ")
+     Leia(vet[i])
+      se vet[i]%2=0 entao //par
+        soma<-soma+vet[i]
+        cont<-cont+1
+      fimse
+   fimpara
 
    se cont=0 entao
      Escreva("NENHUM NUMERO PAR")
-      senao
-       media<-soma/cont
-       Escreva("MEDIA DOS PARES = ",media:1:1)
+   senao
+    media<-soma/cont
+     Escreva("MEDIA DOS PARES = ",media:1:1)
    fimse
 
 Fimalgoritmo

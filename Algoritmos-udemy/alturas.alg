@@ -9,12 +9,10 @@ Var
    altura: vetor [0..9] de real
 
 Inicio
-   cont_idade<-0
-   soma_altura<-0
-   
    Escreva("Quantas pessoas serao digitadas? ")
    Leia(n)
 
+   soma_altura<-0
    para i de 0 ate n-1 faca
      Escreval("Dados da ",i+1,"a pessoa:")
      Escreva("Nome: ")
@@ -30,6 +28,7 @@ Inicio
    altura_media <- soma_altura/n
    Escreval("Altura media: ", altura_media:1:2)
 
+   cont_idade<-0
    para i de 0 ate n-1 faca
      se idade[i] < 16 entao
        cont_idade <- cont_idade + 1 //conta quantas idades menor que 16 tem para descobrir a porcentagem

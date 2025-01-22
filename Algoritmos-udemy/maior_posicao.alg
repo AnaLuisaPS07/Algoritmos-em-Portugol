@@ -8,8 +8,7 @@ Var
 
 
 Inicio
-   maior<-0
-   posicao_m<-0
+   
    Escreva("Quantos numeros voce vai digitar? ")
    Leia(n)
 
@@ -17,6 +16,7 @@ Inicio
      escreva("Digite um numero: ")
      leia(vet[i])
 
+   posicao_m<-0
      se i=0 entao
        maior<-vet[i]
        senao

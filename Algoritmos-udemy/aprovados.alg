@@ -1,12 +1,12 @@
 //Exercicio 49 - aprovados
 Algoritmo "aprovados"
-
+ 
 Var
    n, i: inteiro
-   vet_nome: vetor [0..9] de caractere
-   vet_n1: vetor [0..9] de real
-   vet_n2: vetor [0..9] de real
-   media: vetor [0..9] de real
+   vet_nome: vetor [0..19] de caractere
+   vet_n1: vetor [0..19] de real
+   vet_n2: vetor [0..19] de real
+   media: vetor [0..19] de real
 
 Inicio
    Escreva("Quantos alunos serao digitados? ")
