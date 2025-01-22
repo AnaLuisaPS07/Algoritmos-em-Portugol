@@ -3,11 +3,11 @@ Algoritmo "comerciante"
 
 Var
    i,n:inteiro
-   vet_nome: vetor [0..19] de caractere
-   vet_c: vetor [0..19] de real
-   vet_v: vetor [0..19] de real
-   lucro: vetor [0..19] de real
-   lucro_per: vetor [0..19] de real
+   vet_nome: vetor [0..9] de caractere
+   vet_c: vetor [0..9] de real
+   vet_v: vetor [0..9] de real
+   lucro: vetor [0..9] de real
+   lucro_per: vetor [0..9] de real
    cont_10,cont_entre,cont_20:inteiro
    total_compra,total_venda,total_lucro:real
 
@@ -34,15 +34,15 @@ Inicio
     cont_entre<-0
     cont_20<-0
     para i de 0 ate n-1 faca //lucros
-    Se lucro_per[i]<10 entao //abaixo de 10%
+     Se lucro_per[i]<10 entao //abaixo de 10%
       cont_10<-cont_10+1
     senao
-      se (lucro_per[i]>=10) e (lucro_per[i]<=20) entao //entre 10% e 20%
+      se lucro_per[i]<=20 entao //entre 10% e 20% Se entra nesse bloco já significa que é maior que 10%
         cont_entre<-cont_entre+1
       senao
         cont_20<-cont_20+1 //acima de 20%
       fimse
-    fimse
+     fimse
     fimpara
 
     total_compra<-0
