@@ -15,5 +15,3 @@ Fimalgoritmo
 //pergunta se quer reservar outra [s/n]
 //automaticamente a que foi reservada nao vai aparecer mais como disponivel
 //ao tentar reservar uma que seja esteja ocupada, falar que ja esta reservada
-//
-//

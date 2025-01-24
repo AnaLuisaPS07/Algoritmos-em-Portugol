@@ -17,7 +17,6 @@ Inicio
    fimpara
 
    limpatela
-
    escreval("------------------------")
    escreval("TABELA DE PARTIDAS")
    escreval("------------------------")
