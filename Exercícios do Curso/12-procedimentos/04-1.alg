@@ -17,6 +17,7 @@ Inicio
    x<- 4
    y<- 8
    soma(x,y)
+   escreval("Daqui pra baixo é no programa principal")
    escreval("Valor de X = ", x)
    escreval("Valor de Y = ", y)
    escreval("Soma X+Y = ", x+y)
