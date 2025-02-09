@@ -1,26 +1,20 @@
 // Exercicio 55 - reajuste posto de gasolina
-//ERROR
+//com algum erro de sintaxe
 Algoritmo "posto_gasolina"
 
 Var
-    valor_gasolina, valor_etanol, reajuste: real
+    valor_gasolina, valor_etanol, reajuste_preco: real
     combustivel: caractere
 
-// Função para reajustar o valor da gasolina
-Funcao reajustarGasolina(var valor_gas: real, reajuste: real): real
-var
-    result: real
+Funcao reajuste_gas(var valor_gas, mudanca: real): real
 Inicio
-    result<-0
-    result <- (valor_gas + reajuste)
-    retorne result
+    retorne (valor_gas + mudanca)
 FimFuncao
 
-// Função para reajustar o valor do etanol e atualizar a gasolina
-Funcao reajustarEtanol(var valor_eta: real, var valor_gas: real, reajuste: real): real
+Funcao reajuste_eta(var valor_eta, var valor_gas, mudanca: real): real
 Inicio
-    valor_eta <- valor_eta + reajuste
-    valor_gas <- valor_gas + (reajuste * 0.27) // Adiciona 27% do reajuste à gasolina
+    valor_eta <- valor_eta + mudanca
+    valor_gas <- valor_gas + (mudanca * 0.27) //27% do reajuste à gasolina
     retorne valor_eta
 FimFuncao
 
@@ -32,25 +26,22 @@ Inicio
     leia(valor_etanol)
 
     escreva("Digite o valor do reajuste: ")
-    leia(reajuste)
+    leia(reajuste_preco)
 
     escreva("Digite qual o combustivel do reajuste (gasolina ou etanol): ")
     leia(combustivel)
 
-    // Validação do combustível
     enquanto (combustivel <> "gasolina") e (combustivel <> "etanol") faca
         escreva("Combustivel invalido! Apenas 'gasolina' ou 'etanol'. Tente novamente: ")
         leia(combustivel)
     fimenquanto
 
-    // Aplicação do reajuste
     se (combustivel = "gasolina") entao
-        valor_gasolina <- reajustarGasolina(valor_gasolina, reajuste)
+        valor_gasolina <- reajuste_gas(valor_gasolina, reajuste_preco)
     senao
-        valor_etanol <- reajustarEtanol(valor_etanol, valor_gasolina, reajuste)
+        valor_etanol <- reajuste_eta(valor_etanol, valor_gasolina, reajuste_preco)
     fimse
 
-    // Exibir valores atualizados
     escreva("Novo preço da gasolina: R$", valor_gasolina)
     escreva("Novo preço do etanol: R$", valor_etanol)
 

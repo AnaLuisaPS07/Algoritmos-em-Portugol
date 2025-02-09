@@ -1,0 +1,10 @@
+//
+Algoritmo ""
+
+Var
+
+
+Inicio
+ 
+
+Fimalgoritmo
