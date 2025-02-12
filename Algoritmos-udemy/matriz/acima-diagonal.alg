@@ -18,7 +18,7 @@ Inicio
 
    soma<-0
    para i de 0 ate ordem-1 faca
-     para j de i+1 ate ordem-1 faca//??
+     para j de i+1 ate ordem-1 faca//os elementos acima da diagonal principal são os que estão no indice que correponde a UM valor a mais que o indice da linha 
           soma<-soma+matriz[i,j]
      fimpara
    fimpara

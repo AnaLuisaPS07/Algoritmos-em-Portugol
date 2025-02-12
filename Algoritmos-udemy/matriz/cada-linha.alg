@@ -19,7 +19,7 @@ Inicio
 
    escreva("MAIOR ELEMENTO DE CADA LINHA:")
    para i de 0 ate ordem-1 faca
-     maior<- matriz[i,0] //zero 
+     maior<- matriz[i,0] //o maior fica sendo o primeiro elemento por enquanto 
       para j de 1 ate ordem-1 faca //1
         se matriz[i,j]>maior entao
           maior<-matriz[i,j]
