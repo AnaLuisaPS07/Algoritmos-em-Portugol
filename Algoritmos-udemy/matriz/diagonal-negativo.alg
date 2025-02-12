@@ -33,6 +33,6 @@ Inicio
      fimpara
   fimpara
    escreval(" ")
-   escreval("QUANTIDADE DE NEGATIVOS: ", qtd_negativos)
+   escreval("QUANTIDADE DE NEGATIVOS = ", qtd_negativos)
 
 Fimalgoritmo

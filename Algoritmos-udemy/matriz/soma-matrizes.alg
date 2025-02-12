@@ -2,7 +2,7 @@
 Algoritmo "soma_matrizes"
 
 Var
-   l,c, i, j: inteiro
+   l,c,i,j: inteiro
    matriz_a: vetor [0..9, 0..9] de inteiro
    matriz_b: vetor [0..9, 0..9] de inteiro
    matriz_c: vetor [0..9, 0..9] de inteiro
@@ -38,6 +38,5 @@ Inicio
      fimpara
      escreval(" ")
    fimpara
-
 
 Fimalgoritmo

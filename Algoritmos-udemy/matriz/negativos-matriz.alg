@@ -2,7 +2,7 @@
 Algoritmo "negativos_matriz"
 
 Var
-   m,n, i,j: inteiro
+   m,n,i,j: inteiro
    matriz: vetor [0..9, 0..9] de real
 
 Inicio
