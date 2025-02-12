@@ -1,4 +1,5 @@
-algoritmo "codigoComErro"
+//codigo com codigoComErro
+algoritmo "em_recuperacao"
 
 var
    n1,n2, m: real
