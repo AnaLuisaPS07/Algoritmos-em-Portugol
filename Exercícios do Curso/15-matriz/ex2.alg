@@ -1,4 +1,5 @@
 //Exercicio 2 - jogo da velha
+//Resolucao do professor
 algoritmo "jogoVelha"
 
 var
@@ -86,8 +87,6 @@ inicio
    // Retorna se o jogo acabou ou nao
    Retorne terminou
 FimFuncao
-
-
 
 inicio
    cont <- 1
