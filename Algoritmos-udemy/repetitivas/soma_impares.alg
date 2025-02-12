@@ -11,7 +11,6 @@ Inicio
    Leia(y)
    soma<-0
 
-
    se x>y entao //decrescente
      temp<-x
      x<-y
@@ -25,6 +24,5 @@ Inicio
     fimpara
 
     Escreva("SOMA D0S IMPARES = ", soma)
-
 
 Fimalgoritmo

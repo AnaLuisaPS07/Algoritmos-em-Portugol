@@ -1,14 +1,11 @@
 //Melhor Aluno da turma
-
 Algoritmo "Exercicio02"
 
 Var
-
    cont, quant, nota, notaMaior: inteiro
    nome, melhorAluno: caractere
 
 Inicio
-
    cont <- 1
 
    Escreval ("-----------------------------------------")

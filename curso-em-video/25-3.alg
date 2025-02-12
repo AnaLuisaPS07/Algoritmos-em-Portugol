@@ -1,11 +1,9 @@
 algoritmo "ValoresPares2"
 
 var
-
       c, v: inteiro
 
 inicio
-
       Escreval ("Digite um valor: ")
       Leia (v)
       

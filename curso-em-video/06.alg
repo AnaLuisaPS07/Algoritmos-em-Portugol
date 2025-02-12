@@ -5,7 +5,6 @@ var
    F, C: real
    
 inicio
-
    Escreval ("Qual a temperatura aqui?")
    Leia (F)
    
@@ -13,8 +12,6 @@ inicio
    
    Escreval ("No Brasil estaria " , C)
    
-   
-
 fimalgoritmo
 
 //erro

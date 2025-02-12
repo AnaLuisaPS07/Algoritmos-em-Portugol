@@ -1,7 +1,6 @@
 algoritmo "ValoresPares"
 
 var
-
       c, v: inteiro
 
 inicio

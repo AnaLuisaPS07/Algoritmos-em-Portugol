@@ -1,11 +1,8 @@
 // Prática estruturas de repetição 01: enquanto
-
 algoritmo "ContarATE10"
 
 var
-
    contador: inteiro
-
 
 inicio
 

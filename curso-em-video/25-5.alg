@@ -1,11 +1,9 @@
 algoritmo "QuantosEntre0e10+SOMA"
 
 var
-
       c, v, tot, soma: inteiro
 
 inicio
-
       tot <- 0
       soma <- 0
       

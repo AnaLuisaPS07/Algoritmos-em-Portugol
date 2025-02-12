@@ -16,5 +16,4 @@ Inicio
      result<- valor*cont
    fimpara
 
-
 Fimalgoritmo

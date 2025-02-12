@@ -10,7 +10,6 @@ Inicio
    Leia(x)
    Leia(y)
 
-
    Enquanto (x<>0) e (y<>0)faca // e/ou?
      se (x>0) e (y>0) entao // x e y
        quadrante <- "Q1"

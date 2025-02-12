@@ -8,7 +8,6 @@ Var
 
 Inicio
    maior<- 0
-
    Escreval("--------------------------------------------")
    Escreval("DETECTOR DE PESADO")
    Escreval("Maior Peso ate agora: ", maior, "KG")

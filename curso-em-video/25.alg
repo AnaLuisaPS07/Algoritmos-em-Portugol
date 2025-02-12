@@ -1,7 +1,6 @@
 algoritmo "Contarde1Ate10"
 
 var
-
       c: inteiro
 
 inicio

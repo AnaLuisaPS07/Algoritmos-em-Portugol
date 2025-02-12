@@ -5,12 +5,9 @@
 algoritmo "ContarAteOndeQuiser"
 
 var
-
    contador, valor: inteiro
 
-
 inicio
-
       contador <- 0
       
       Escreval ("Digite Até qual número deseja contar?")

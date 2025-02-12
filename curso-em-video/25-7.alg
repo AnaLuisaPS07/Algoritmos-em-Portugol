@@ -1,9 +1,7 @@
 //dúvida
-
 algoritmo "Combinações"
 
 var
-
       c1, c2: inteiro
 
 inicio

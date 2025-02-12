@@ -1,11 +1,9 @@
 algoritmo "Fatorial"
 
 var
-
    n, c, f: inteiro
 
 inicio
-
     Escreval ("Digite um número: ")
     Leia (n)
     c <- n

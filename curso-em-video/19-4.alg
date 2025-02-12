@@ -1,15 +1,11 @@
 // Prática estruturas de repetição 04: enquanto
 // Ler números e somá-los
-
 algoritmo "SomadorNumerico"
 
-
 var
-
    contador, N, S: inteiro
 
 inicio
-
       contador <- 1   // vai somar 10 números, se deixassse valendo 0 ia somar 11
       S <- 0
       

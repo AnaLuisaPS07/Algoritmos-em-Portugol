@@ -16,5 +16,4 @@ Inicio
 
    Escreval("A funcionária ",nome," ganha",salario:8:2," reais e tem", idade," anos" )
 
-
 Fimalgoritmo

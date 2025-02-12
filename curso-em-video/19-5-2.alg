@@ -1,16 +1,12 @@
 //Conversor de dinheiro, o usuário define quantas vezes repete
-
 algoritmo "creuza02"
-
 
 var
 
    dindin, dolar: real
    C, Q: inteiro
 
-
 inicio
-
      C <- 1
 
      Escreva ("Quantas vezes você quer converter?")

@@ -5,7 +5,6 @@ Var
    i: inteiro
    times: vetor[0..2] de caractere
 
-
 Inicio
    escreval("------------------------")
    escreval("CAMPEONATO DE FUTEBOL")

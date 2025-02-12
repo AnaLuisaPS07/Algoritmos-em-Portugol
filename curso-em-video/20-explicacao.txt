@@ -1,6 +1,5 @@
 Objetivo do Código:
 
-
 O código realiza uma contagem inteligente de números de acordo com os valores de início e 
 final fornecidos pelo usuário. A contagem pode ser crescente ou decrescente, dependendo dos valores inseridos.
 

@@ -5,7 +5,6 @@ Var
    nome:caractere
    c: inteiro
 
-
 Inicio
    Escreva("Qual seu nome? ")
    Leia(nome)

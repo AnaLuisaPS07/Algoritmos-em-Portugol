@@ -1,5 +1,4 @@
 // Prática estruturas de repetição
-
 algoritmo "TabuadaDe7"
 
 var

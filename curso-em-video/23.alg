@@ -1,11 +1,9 @@
 algoritmo "SuperContador"
 
 var
-
     c, n: inteiro
 
 inicio
-
     c <-1
     EscrevaL ("----------------- ")
     EscrevaL ("]     MENU       ]")
@@ -14,7 +12,6 @@ inicio
     EscrevaL ("] (2) De 10 a 1   ] ")
     EscrevaL ("] (2) Sair        ]")
     EscrevaL ("----------------- ")
-
 
     Escreva ("Digite a opção: ")
     Leia (n)

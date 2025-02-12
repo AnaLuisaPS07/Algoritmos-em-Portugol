@@ -1,9 +1,7 @@
 //declarando e atribuindo variávies
-
 algoritmo "gerenciamentoEscola06"
 
 var
-
    totalTurmas, diasLetivos, media: inteiro
    alunoA, alunoZ: caractere
    

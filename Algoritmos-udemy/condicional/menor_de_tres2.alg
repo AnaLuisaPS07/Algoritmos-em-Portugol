@@ -2,11 +2,9 @@
 Algoritmo "menor_de_tres"
 
 Var
-
    a, b, c, menor : inteiro
 
 Inicio
-
    escreva("Primeiro valor: ")
    leia(a)
    escreva("Segundo valor: ")

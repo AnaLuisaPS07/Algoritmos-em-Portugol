@@ -5,7 +5,6 @@ var
    EQ, ES, Tri: logico
    
 inicio
-
   Escreval ("Iremos formar triângulos (ou tentar!)")
   
   Escreval (" ")

@@ -4,7 +4,6 @@ Algoritmo "senha_fixa"
 Var
     senha: inteiro
 
-
 Inicio
    Escreva("Digite a senha: ")
    Leia(senha)

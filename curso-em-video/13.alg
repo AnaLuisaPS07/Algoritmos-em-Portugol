@@ -4,7 +4,6 @@ var
    n1,n2, m: real
    
 inicio
-
       Escreva ("Digite a nota 1 do aluno: ")
       Leia (n1)
       Escreva ("Digite a nota 2 do aluno: ")

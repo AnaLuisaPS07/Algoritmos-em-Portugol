@@ -1,9 +1,7 @@
 // Prática estruturas de repetição
-
 algoritmo "TabuadaDe7"
 
 var
-
   cont, N, R: inteiro
    
 inicio

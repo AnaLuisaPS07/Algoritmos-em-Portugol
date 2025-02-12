@@ -1,13 +1,10 @@
 // Número primo: número divisível apenas por 1 e por ele mesmo
-
 algoritmo "númeroPrimo"
 
 var
-
     c, n, contDiv : inteiro
 
 inicio
-
     c <-1
     contDiv <- 0
     

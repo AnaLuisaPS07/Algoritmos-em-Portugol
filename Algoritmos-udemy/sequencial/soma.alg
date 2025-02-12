@@ -1,5 +1,4 @@
 //Exercício 4 - soma
-
 Algoritmo "soma"
 
 Var

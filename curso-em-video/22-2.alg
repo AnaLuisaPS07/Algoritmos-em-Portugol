@@ -1,13 +1,10 @@
 // Prática estruturas de repetição
-
 algoritmo "ContarAte10"
 
 var
-
   cont: inteiro
    
 inicio
-
     cont <- 1
       
     Repita

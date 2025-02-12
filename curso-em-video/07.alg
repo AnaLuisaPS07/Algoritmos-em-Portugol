@@ -4,7 +4,6 @@ var
       preco, imposto: real
       
 inicio
-
    Escreval ("Qual preço do produto?")
    Leia (preco)
    

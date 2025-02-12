@@ -54,7 +54,11 @@ Se você prefere utilizar o **Visual Studio Code**, há uma extensão chamada **
 2. Vá até a aba de extensões (`Ctrl + Shift + X`).
 3. Busque por `Design Líquido` e instale a extensão.
 4. Agora você pode escrever seus algoritmos diretamente no VS Code! 🚀
+   
+---
+#### ⚠️Observação: A maioria dos códigos foram digitados sem o uso de caracteres especiais, como ç, ^, ~, para evitar possíveis problemas de compatibilidade com o VisualG, garantindo que possam ser executados sem erros relacionados à codificação de caracteres.
 
+---
 ## 🤝 Como Contribuir
 Quer  adicionar mais códigos e ajudar este repositório a se tornar ainda mais útil? Veja como contribuir:
 
@@ -75,4 +79,5 @@ Quer  adicionar mais códigos e ajudar este repositório a se tornar ainda mais 
 6. **Abra um Pull Request** e aguarde a revisão!
 
 ---
-💡 Desenvolvido por [Ana Luísa](https://github.com/AnaLuisaPS07)
+💡 Desenvolvido por [Ana Luísa](https://github.com/AnaLuisaPS07) em abril de 2024
+

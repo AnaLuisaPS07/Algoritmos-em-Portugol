@@ -1,10 +1,8 @@
 //A sequência de Fibonacci é uma sequência numérica infinita em que cada termo 
 //a partir do terceiro é a soma dos dois termos anteriores.
-
 algoritmo "Sequência de Fibonnaci"
 
 var
-
       c, n1, n2, n3: inteiro
 
 inicio

@@ -1,20 +1,16 @@
  algoritmo "creuza02"
  
- 
 var
 
    dindin: real
    dolar: real
 
-
 inicio
-
      Escreval ("Qual a quantidade de reais: ")
      Leia (dindin)
      
      dolar<- (dindin/5)
      
      Escreval ("Em dolar eu terei ", dolar)
-
 
 fimalgoritmo

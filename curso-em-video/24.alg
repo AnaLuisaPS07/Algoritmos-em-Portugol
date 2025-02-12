@@ -1,12 +1,10 @@
 algoritmo "SeletorDePessoas"
 
 var
-
    s, resp: caractere
    i,cab, requisitosM, requisitosF: inteiro
 
 inicio
-
   requisitosM <-0
   requisitosF <-0
 

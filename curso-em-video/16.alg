@@ -1,13 +1,11 @@
 algoritmo "DependentesFuncionario"
 
 var
-
    Nome: Caractere
    Sal, NSal : Real
    Dep : Inteiro
    
 inicio
-
       Escreva ("Qual o nome do Funcionario? ")
       Leia (Nome)
       

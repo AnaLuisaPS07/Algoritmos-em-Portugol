@@ -1,7 +1,6 @@
 algoritmo "QuantosEntre0e10"
 
 var
-
       c, v, tot: inteiro
 
 inicio

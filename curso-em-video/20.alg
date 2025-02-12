@@ -1,14 +1,11 @@
 //CONTAGEM INTELIGENTE
-
 algoritmo "Exercicio01"
 
 
 var
-
    inic, final, cont: inteiro
 
 inicio
-
       cont <- 1
 
       Escreval ("Digite o início da contagem: ")
@@ -43,6 +40,5 @@ inicio
          FimEnquanto
 
       FimSe
-
 
 fimalgoritmo

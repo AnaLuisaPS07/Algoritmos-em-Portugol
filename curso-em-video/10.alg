@@ -5,7 +5,6 @@ var
     n: inteiro
 
 inicio
-
       Escreva ("Digite qualquer número: ")
       Leia (n)
 

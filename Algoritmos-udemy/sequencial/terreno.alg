@@ -1,5 +1,4 @@
 //Exercicio 1 - terreno
-
 Algoritmo "terreno"
 
 Var
@@ -18,6 +17,5 @@ Inicio
 
    Escreval("Area do terreno = ", area:1:2)
    Escreval("Preco do terreno = ", preco_terreno:1:2)
-
 
 Fimalgoritmo

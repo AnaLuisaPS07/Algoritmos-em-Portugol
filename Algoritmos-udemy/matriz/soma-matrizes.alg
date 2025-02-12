@@ -7,7 +7,6 @@ Var
    matriz_b: vetor [0..9, 0..9] de inteiro
    matriz_c: vetor [0..9, 0..9] de inteiro
 
-
 Inicio
    escreva("Quantas linhas vai ter cada matriz? ")
    leia(l)

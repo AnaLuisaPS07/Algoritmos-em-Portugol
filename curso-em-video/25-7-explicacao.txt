@@ -38,8 +38,7 @@ Assim como o laço externo, c2 é incrementado de 1 até chegar a 3.
 A cada iteração do laço interno, a combinação atual de c1 e c2 é exibida usando Escreval.
 Impressão: Escreval (c1, c2)
 
-Durante cada iteração do laço interno, o comando Escreval imprime os valores atuais de c1 e c2 na tela.
-Isso resulta na impressão de todas as combinações possíveis de c1 e c2 variando de 1 a 3.
+Durante cada iteração do laço interno, o comando Escreval imprime os valores atuais de c1 e c2 na tela. Isso resulta na impressão de todas as combinações possíveis de c1 e c2 variando de 1 a 3.
 
 
 RESULTADO ESPERADO:
@@ -56,15 +55,11 @@ O código irá gerar e imprimir as seguintes combinações:
 3 2
 3 3
 
-
-
-
 Explicação da Estrutura:
 
 Laço Aninhado (Para dentro de outro Para):
 
-O laço interno executa completamente para cada iteração do laço externo.
-Isso significa que, para cada valor de c1 (1, 2, 3), o laço c2 irá executar três vezes, 
+O laço interno executa completamente para cada iteração do laço externo. Isso significa que, para cada valor de c1 (1, 2, 3), o laço c2 irá executar três vezes, 
 gerando todas as combinações possíveis com c1 fixo.
 
 Complexidade:
@@ -72,6 +67,4 @@ Complexidade:
 Como temos dois laços aninhados, cada com 3 iterações, o número total de combinações impressas será 3 x 3 = 9.
 
 Conclusão
-Este algoritmo é um exemplo simples de como usar laços aninhados para gerar combinações de valores. 
-Ele é útil quando precisamos explorar todas as possíveis combinações de um conjunto de valores, 
-neste caso, de 1 a 3.
+Este algoritmo é um exemplo simples de como usar laços aninhados para gerar combinações de valores. Ele é útil quando precisamos explorar todas as possíveis combinações de um conjunto de valores, neste caso, de 1 a 3.

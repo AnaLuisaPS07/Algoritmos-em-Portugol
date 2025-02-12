@@ -1,11 +1,9 @@
 algoritmo "JogodeFutebol"
 
 var
-
    pal, sao, d: inteiro
 
 inicio
-
       Escreval("--------------------------")
       Escreval("  Palmeiras x Sao Paulo   ")
       Escreval("--------------------------")

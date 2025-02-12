@@ -1,9 +1,7 @@
 //Foi muitop bom fazer esse
-
 algoritmo "AnalisadorDeValores"
 
 var
-
    c, n, s, divi, nulo, pares: inteiro
    m: real
 

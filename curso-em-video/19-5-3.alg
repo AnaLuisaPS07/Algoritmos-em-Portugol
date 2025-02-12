@@ -1,15 +1,12 @@
 // Prática estruturas de repetição
 // Ler números e somá-los. CÓDIGO COM ALTERAÇÃO
-
 algoritmo "SomadorNumerico"
 
 var
-
    N, S: inteiro
    resp: caractere
    
 inicio
-
       S <- 0
       resp <- "S"
 

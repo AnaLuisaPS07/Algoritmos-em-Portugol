@@ -1,7 +1,6 @@
 algoritmo "Doação"
 
  var
- 
     n, valor: inteiro
     
 inicio
@@ -36,7 +35,6 @@ inicio
          valor <-0
          Escreval ("Cacelado.")
      FimEscolha
-     
      
       Escreval ("---------------------------------")
       Escreval ("   Sua doação foi de ", valor, " reais")

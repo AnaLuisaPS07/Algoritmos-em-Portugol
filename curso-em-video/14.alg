@@ -1,7 +1,6 @@
 algoritmo "IMC_Completo"
 
 var
-
    m, a, IMC: Real
 
 inicio

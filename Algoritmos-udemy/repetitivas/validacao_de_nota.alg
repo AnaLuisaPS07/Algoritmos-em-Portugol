@@ -8,7 +8,6 @@ Inicio
    Escreva("Digite a primeira nota: ")
    Leia(p1)
 
-
     Enquanto (p1<0) ou (p1>10) faca
         Escreva("Valor invalido! Tente novamente: ")
         Leia(p1)
@@ -24,6 +23,5 @@ Inicio
 
     media <- (p1 + p2) / 2
     Escreval("MEDIA = ", media:1:2)
-
 
 Fimalgoritmo

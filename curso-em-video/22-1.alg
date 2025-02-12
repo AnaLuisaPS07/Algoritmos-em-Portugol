@@ -1,14 +1,11 @@
 // Prática estruturas de repetição: repita
-
 algoritmo "SomadorNumerico"
 
 var
-
    N, S: inteiro
    resp: caractere
    
 inicio
-
       S <- 0
       
     Repita

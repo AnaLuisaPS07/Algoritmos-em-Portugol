@@ -1,9 +1,7 @@
 // Usuário escolhe se continua
-
 algoritmo "Fatorial"
 
 var
-
    n, c, f: inteiro
    r: caractere
 

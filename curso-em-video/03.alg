@@ -5,7 +5,6 @@ var
 
  
 inicio
-
    A <- abs(-50)
    Escreval (A)
  

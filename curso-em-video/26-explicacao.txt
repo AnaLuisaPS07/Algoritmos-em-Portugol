@@ -112,11 +112,3 @@ a sequência de Fibonacci, usando um laço Para.
 O laço começa na terceira posição porque os dois primeiros números são fixos 
 e já foram impressos antes do laço começar. A cada iteração, ele calcula o próximo número da sequência, 
 atualiza as variáveis n1 e n2, e repete o processo até atingir a quantidade desejada de números.
-
-
-
-
-
-
-
-

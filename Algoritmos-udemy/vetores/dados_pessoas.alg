@@ -10,10 +10,6 @@ Var
    soma, media: real
 
 Inicio
-   
-   
-   
-
    Escreva("Quantas pessoas serao digitadas? ")
    Leia(n)
 

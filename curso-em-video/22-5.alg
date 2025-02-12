@@ -1,10 +1,8 @@
 algoritmo "ContadorDeNegativcos"
 var
-
    c, n, totN: inteiro
    
 inicio
-
       c <- 1
       totN <- 0
       

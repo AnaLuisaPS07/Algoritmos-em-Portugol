@@ -1,9 +1,7 @@
 //Somando os imapres tambem fora do intervalo
-
 algoritmo "QuantosEntre0e10+SOMA"
 
 var
-
       c, v, tot, soma: inteiro
 
 inicio

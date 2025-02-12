@@ -1,7 +1,6 @@
 algoritmo "AproveitamentoAluno"
 
 var
-
      n1, n2, m: real
 
 inicio

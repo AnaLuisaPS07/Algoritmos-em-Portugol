@@ -25,6 +25,4 @@ inicio
   Escreval( nao(A<>B) ou (C<B))
   //não funcionou como deveria
   
-
-  
 fimalgoritmo

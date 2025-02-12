@@ -1,8 +1,6 @@
 // Prática estruturas de repetição 04: enquanto
 // Ler números, somá-los e mostrar qual é o maior entre eles
-
 algoritmo "SomadorNumerico"
-
 
 var
 
@@ -23,7 +21,6 @@ inicio
 
        contador <- contador + 1 // repetição da estrutura
        S <- S + N   // o programa é iniciado com S valendo 0 pq não houve nenhuma soma ainda, mas quando for somado, a SOMA receberá N (valores inseridos pelo usuário)
-
 
       FimEnquanto
 

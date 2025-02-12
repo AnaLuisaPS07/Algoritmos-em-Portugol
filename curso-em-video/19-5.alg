@@ -1,16 +1,11 @@
 //Conversor de dinheiro que se repete 4 vezes
-
 algoritmo "creuza02"
 
-
 var
-
    dindin, dolar: real
    C : inteiro
 
-
 inicio
-
      C <- 1
      
      Enquanto (C <= 4) faca

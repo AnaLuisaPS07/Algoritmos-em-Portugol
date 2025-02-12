@@ -1,9 +1,7 @@
 //declarando e atribuindo variávies
-
 algoritmo "gerenciamentoLoja07"
 
 var
-
   calcaJeans: real
   funcionariaDoMes: caractere
   pecasNovas:inteiro

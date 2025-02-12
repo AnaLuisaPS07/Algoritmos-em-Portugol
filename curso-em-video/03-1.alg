@@ -1,6 +1,5 @@
 algoritmo "conversor_de_angulos"
 
-
 var
 
    angulo, R: real

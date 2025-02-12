@@ -5,7 +5,6 @@ Var
    i,n:inteiro
    fat:real
 
-
 Inicio
    Escreva("Digite o valor de N:" )
    Leia(n)

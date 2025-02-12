@@ -1,5 +1,4 @@
 //execício_proposto 1
-
 Algoritmo "teste_saida"
 
 Var

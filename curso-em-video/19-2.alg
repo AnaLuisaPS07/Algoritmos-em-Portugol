@@ -4,12 +4,9 @@
 algoritmo "ContarDE10a0"
 
 var
-
    contador: inteiro
 
-
 inicio
-
       contador <- 11
       
       Enquanto (contador >= 0) faca

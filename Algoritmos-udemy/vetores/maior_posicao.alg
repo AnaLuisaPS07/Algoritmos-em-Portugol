@@ -5,10 +5,8 @@ Var
    n, i, posicao_m: inteiro
    vet: vetor [0..9] de real
    maior: real
-
-
-Inicio
    
+Inicio
    Escreva("Quantos numeros voce vai digitar? ")
    Leia(n)
 
