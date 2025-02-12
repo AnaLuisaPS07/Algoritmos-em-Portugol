@@ -5,7 +5,7 @@ Var
    matriz: vetor [0..3, 0..3] de inteiro
    i, j, resp: inteiro
 
-Procedimento opcao1(l,c:inteiro)
+Procedimento opcao1()
 inicio
    para i de 0 ate 3 faca
       para j de 0 ate 3 faca
@@ -15,18 +15,19 @@ inicio
    fimpara
 fimprocedimento
 
-Procedimento opcao2(l,c:inteiro)
+Procedimento opcao2()
+var t: inteiro
 inicio
    para i de 0 ate 3 faca
-      para j de 0 ate 3 faca
-         se i=j entao
-            escreva(matriz[i,j])
-         fimse
+      escreva(matriz[i,j])
+         para t de 0 ate 0 faca
+            Escreva("    ")
       fimpara
    fimpara
 fimprocedimento
 
-Procedimento opcao3(l,c:inteiro)
+Procedimento opcao3()
+var t: inteiro
 inicio
    Para l de 0 ate 3 faca
       Escreva("    ")
@@ -53,7 +54,6 @@ inicio
 fimprocedimento
 
 Inicio
-
    para i de 0 ate 3 faca
       para j de 0 ate 3 faca
           escreva("Digite o valor da posicao [" , i, ",", j, "]: ")
@@ -62,29 +62,31 @@ Inicio
    fimpara
    limpatela
 
-   escreval("MENU DE OPCOES")
-   escreval("=======================")
-   escreval("[1] Mostrar a Matriz")
-   escreval("[2] Diagonal Principal")
-   escreval("[3] Triangulo Superior")
-   escreval("[4] Triangulo Inferior")
-   escreval("[5] Sair")
-   escreval("============== Opção:")
-   leia(resp)
-
-   Escolha (resp)
-     caso 1
-       opcao1(i,j)
-     caso 2
-       opcao2(i,j)
-     caso 3
-       opcao3(i,j)
-     caso 4
-       opcao4(i,j)
-     caso 5
-       //
-     Outrocaso
-       //
-   FimEscolha
+   repita
+      escreval("MENU DE OPCOES")
+      escreval("=======================")
+      escreval("[1] Mostrar a Matriz")
+      escreval("[2] Diagonal Principal")
+      escreval("[3] Triangulo Superior")
+      escreval("[4] Triangulo Inferior")
+      escreval("[5] Sair")
+      Repita
+            EscrevaL("===== OPCAO: ")
+            Leia(resp)
+         Ate (resp >=1) e (resp <=5)
+      LimpaTela
+      Escolha resp
+      caso 1
+         opcao1()
+      caso 2
+         opcao2()
+      caso 3
+         opcao3()
+      caso 4
+         opcao4()
+      caso 5
+         EscrevaL("ENCERRANDO...")
+      FimEscolha
+   Ate (resp = 5)
 
 Fimalgoritmo
