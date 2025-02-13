@@ -4,18 +4,16 @@ algoritmo "Ex58"
 
 
 var
-
    veloVeiculo: real
    resp: caracter
    qtdVelo,qtdMultas: inteiro
 
 
 inicio
-
       qtdVelo <- 0
       qtdMultas <- 0
 
-      REPITA  // Usando o Repita
+      REPITA  //usando o Repita
         Escreval ("Digite a velocidade: ")
         Leia (veloVeiculo)
 

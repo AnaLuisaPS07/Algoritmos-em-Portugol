@@ -1,15 +1,11 @@
 //30 vacinações em recém nascidos, faz a média entre os dias de vida de todos os bebês
-
 algoritmo "Ex55"
 
-
 var
-
    totalDias, diasNasc, c: inteiro
 
 
 inicio
-
       totalDias <- 0
       c <- 0
       

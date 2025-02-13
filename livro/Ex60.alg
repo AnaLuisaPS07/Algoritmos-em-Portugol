@@ -1,11 +1,9 @@
 algoritmo "Ex60"
 
 var
-
    age: inteiro
 
 inicio
-
        Escreval ("-------------------------------------")
        Escreval (" SISTEMA DE AGENDAMENTO DE PROVA CNH ")
        Escreval ("-------------------------------------")

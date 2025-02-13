@@ -1,14 +1,11 @@
 //Utilizando estrutura de repetição PARA
-
 algoritmo "Ex54"
 
 var
-
    valorSacado, maiorValor, mediaValorSacado, total: real
    contador: inteiro
 
 inicio
-
       maiorValor <- 0
       total <- 0
 

@@ -1,12 +1,9 @@
 algoritmo "exemplo37"
 
-
 var
-
    n1, n2: inteiro
 
 inicio
-
       Escreval ("Digite o primeiro número: ")
       Leia (n1)
       

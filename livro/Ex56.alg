@@ -1,16 +1,13 @@
 //Mesmo algoritmo da VACINAÇÃO, mas com o usuário entrando com valores
-
 algoritmo "Ex56"
 
 
 var
-
    totalDias, diasNasc, qtdVacinas: inteiro
    resp : caractere
 
 
 inicio
-
       totalDias <- 0
       qtdVacinas <- 0
       resp <- "S"

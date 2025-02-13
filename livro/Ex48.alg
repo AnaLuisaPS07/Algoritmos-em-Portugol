@@ -1,13 +1,10 @@
 algoritmo "Ex48"
 
-
 var
-
  sorvete: caractere
 
 
 inicio
-
       Escreval ("-------------------------------")
       Escreval ("Sabores do sorvete de frutas: ")
       Escreval ("-------------------------------")

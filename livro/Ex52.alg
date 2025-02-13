@@ -1,16 +1,12 @@
 //Utilizando estrutura de repetição PARA
 //Exibindo a tabuada de 3 de forma decrescente
-
 algoritmo "Ex52"
 
-
 var
-
    contador: inteiro
 
 
 inicio
-
       Escreval ("-------------------------")
       Escreval ("Inicio do Programa")
       Escreval ("-------------------------")

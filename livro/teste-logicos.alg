@@ -1,13 +1,11 @@
 algoritmo "aptoDirigir"
 
 var
-
   idade: inteiro
   horasT, horasP: real
   
 
 inicio
-
  Escreval ("Digite a idade do candidato: ")
  Leia(idade)
  
@@ -24,6 +22,4 @@ inicio
     Escreval ("não apto")
  fimse
  
- 
-
 fimalgoritmo

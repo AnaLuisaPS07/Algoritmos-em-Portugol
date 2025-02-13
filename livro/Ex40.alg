@@ -1,11 +1,9 @@
 algoritmo "Ex40"
 
 var
-
    idade: inteiro
 
 inicio
-
       Escreval ("Digite a idade: ")
       Leia (idade)
 
@@ -16,12 +14,10 @@ inicio
              Senao se (idade < 70) entao
                Escreva ("Voto obrigatório")
                  Senao
-                   Escreva ("Voto opcional")
-                   
+                   Escreva ("Voto opcional") 
              FimSe
-           FimSe
-          FimSe
        FimSe
+      FimSe
 
 fimalgoritmo
 

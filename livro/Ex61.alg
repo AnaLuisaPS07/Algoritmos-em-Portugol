@@ -1,11 +1,9 @@
 algoritmo "Ex61"
 
 var
-
    nota: real
 
 inicio
-
        Escreval ("---------------------------------------")
        Escreval (" SISTEMA DE REGISTRO DE NOTA DE ALUNOS ")
        Escreval ("---------------------------------------")

@@ -1,13 +1,10 @@
 algoritmo "Ex47"
 
-
 var
-
  sorvete: inteiro
 
 
 inicio
-
       Escreval ("-------------------------------")
       Escreval ("Sabores do sorvete de frutas: ")
       Escreval ("-------------------------------")

@@ -1,17 +1,14 @@
 //Radar de Rodovia
-
 algoritmo "Ex57"
 
 
 var
-
    veloVeiculo: real
    resp: caracter
    qtdVelo,qtdMultas: inteiro
 
 
 inicio
-
       resp <- "S"
       qtdVelo <- 0
       qtdMultas <- 0

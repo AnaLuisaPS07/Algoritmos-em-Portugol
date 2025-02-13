@@ -1,12 +1,10 @@
 algoritmo "vamosPensarJuntos"
 
 var
-
   n1, n2, soma, sub, multi, divi: real
 
 
 inicio
-
 n1<- 20
 n2<- 5
 
@@ -26,7 +24,7 @@ Escreval ("O valor da divisão é ", divi)
 fimalgoritmo
 
 
-
+-------------------------------------------------------------------
 algoritmo "vamosPensarJuntos2"
 
 var

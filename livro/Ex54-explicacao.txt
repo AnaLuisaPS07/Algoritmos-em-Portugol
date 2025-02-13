@@ -2,8 +2,7 @@
 //Algoritmo do caixa eletrônico
 // EXPLICAÇÃO
 
-
-Esse código realiza uma simulação de operações de saque em um caixa eletrônico.
+realiza uma simulação de operações de saque em um caixa eletrônico.
 Ele utiliza a estrutura de repetição PARA para executar o processo de saque 10 vezes, e no final, 
 gera um relatório com o maior valor sacado, a média dos valores sacados e o total sacado.
 

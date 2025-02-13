@@ -1,10 +1,9 @@
 algoritmo "Ex59"
 
 var
-
    resp : inteiro
-inicio
 
+inicio
       Repita
 
         Escreval ("-------------------------")

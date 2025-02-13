@@ -1,11 +1,9 @@
 algoritmo "Ex39"
 
 var
-
    idade: inteiro
 
 inicio
-
       Escreval ("Digite a idade: ")
       Leia (idade)
       

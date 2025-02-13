@@ -5,7 +5,6 @@ Var
     total_compra: real
     prazo: inteiro
 
-
 Funcao prazo3(valor_prazo: real): real
 var
    result:real

@@ -1,17 +1,12 @@
 //Utilizando estrutura de repetição PARA
 //Automatizando geração de matrícula para novos clientes
-
 algoritmo "Ex53"
 
-
 var
-
    matricula: inteiro
    nome: caractere
 
-
 inicio
-
       Escreval ("-------------------------")
       Escreval ("Inicio do Programa")
       Escreval ("-------------------------")
